@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prj cpu="STM32F303RT" phy1="ENC28J60" phy2="CC1101">
+  <pin name="GPIOA.00" cfg="IO" addr="11" titel="07.28">
+    <item name="GPIOA.00" />
+  </pin>
+  <pin name="GPIOA.01" cfg="IO" addr="13" titel="07.30">
+    <item name="GPIOA.01" />
+  </pin>
+  <pin name="GPIOA.02" cfg="IO" addr="47" titel="10.35">
+    <item name="GPIOA.02" />
+  </pin>
+  <pin name="GPIOA.03" cfg="IO" addr="48" titel="10.37">
+    <item name="GPIOA.03" />
+    <item name="AIN 03" />
+    <item name="PWM 02.3" />
+    <item name="RX 2.0" />
+  </pin>
+  <pin name="GPIOA.04" cfg="IO" addr="15" titel="CN07.32">
+    <item name="GPIOA.04" />
+  </pin>
+  <pin name="GPIOA.05" cfg="IO" addr="27" titel="CN07.11">
+    <item name="GPIOA.05" />
+  </pin>
+  <pin name="GPIOA.06" cfg="IO" addr="29" titel="CN10.13">
+    <item name="GPIOA.06" />
+  </pin>
+  <pin name="GPIOA.07" cfg="IO" addr="31" titel="CN10.15">
+    <item name="GPIOA.07" />
+  </pin>
+  <pin name="GPIOA.08" cfg="IO" addr="38" titel="CN10.23">
+    <item name="GPIOA.08" />
+  </pin>
+  <pin name="GPIOA.09" cfg="IO" addr="36" titel="CN10.21">
+    <item name="GPIOA.09" />
+  </pin>
+  <pin name="GPIOA.10" cfg="IO" addr="45" titel="10.33">
+    <item name="GPIOA.10" />
+  </pin>
+  <pin name="GPIOA.11" cfg="IO" addr="30" titel="CN10.14">
+    <item name="GPIOA.11" />
+  </pin>
+  <pin name="GPIOA.12" cfg="IO" addr="28" titel="CN10.12">
+    <item name="GPIOA.12" />
+  </pin>
+  <pin name="GPIOA.13" cfg="IO" addr="4" titel="CN07.13">
+    <item name="GPIOA.13" />
+  </pin>
+  <pin name="GPIOA.14" cfg="IO" addr="5" titel="CN07.15">
+    <item name="GPIOA.14" />
+  </pin>
+  <pin name="GPIOA.15" cfg="IO" addr="6" titel="CN07.17">
+    <item name="GPIOA.15" />
+  </pin>
+  <pin name="GPIOB.00" cfg="IO" addr="16" titel="CN07.34">
+    <item name="GPIOB.00" />
+  </pin>
+  <pin name="GPIOB.01" cfg="IO" addr="39" titel="CN10.24">
+    <item name="GPIOB.01" />
+  </pin>
+  <pin name="GPIOB.02" cfg="IO" addr="37" titel="CN10.22">
+    <item name="GPIOB.02" />
+  </pin>
+  <pin name="GPIOB.03" cfg="IO" addr="44" titel="10.31">
+    <item name="GPIOB.03" />
+  </pin>
+  <pin name="GPIOB.04" cfg="None" />
+  <pin name="GPIOB.05" cfg="IO" addr="42" titel="10.29">
+    <item name="GPIOB.05" />
+  </pin>
+  <pin name="GPIOB.06" cfg="IO" addr="33" titel="CN10.17">
+    <item name="GPIOB.06" />
+  </pin>
+  <pin name="GPIOB.07" cfg="IO" addr="7" titel="CN07.21">
+    <item name="GPIOB.07" />
+  </pin>
+  <pin name="GPIOB.08" cfg="IO" addr="23" titel="CN10.03">
+    <item name="GPIOB.08" />
+  </pin>
+  <pin name="GPIOB.09" cfg="IO" addr="25" titel="CN10.05">
+    <item name="GPIOB.09" />
+  </pin>
+  <pin name="GPIOB.10" cfg="IO" addr="40" titel="CN10.25">
+    <item name="GPIOB.10" />
+  </pin>
+  <pin name="GPIOB.11" cfg="IO" addr="34" titel="CN10.18">
+    <item name="GPIOB.11" />
+  </pin>
+  <pin name="GPIOB.12" cfg="IO" addr="32" titel="CN10.16">
+    <item name="GPIOB.12" />
+  </pin>
+  <pin name="GPIOB.13" cfg="IO" addr="43" titel="10.30">
+    <item name="GPIOB.13" />
+  </pin>
+  <pin name="GPIOB.14" cfg="None" />
+  <pin name="GPIOB.15" cfg="IO" addr="41" titel="CN10.26">
+    <item name="GPIOB.15" />
+  </pin>
+  <pin name="GPIOC.00" cfg="IO" addr="20" titel="CN07.38">
+    <item name="GPIOC.00" />
+  </pin>
+  <pin name="GPIOC.01" cfg="IO" addr="18" titel="CN07.36">
+    <item name="GPIOC.01" />
+  </pin>
+  <pin name="GPIOC.02" cfg="IO" addr="17" titel="CN07.35">
+    <item name="GPIOC.02" />
+  </pin>
+  <pin name="GPIOC.03" cfg="IO" addr="19" titel="CN07.37">
+    <item name="GPIOC.03" />
+  </pin>
+  <pin name="GPIOC.04" cfg="IO" addr="46" titel="10.34">
+    <item name="GPIOC.04" />
+    <item name="AIN 19" />
+    <item name="TX 1.2" />
+  </pin>
+  <pin name="GPIOC.05" cfg="IO" addr="26" titel="CN10.06">
+    <item name="GPIOC.05" />
+  </pin>
+  <pin name="GPIOC.06" cfg="IO" addr="24" titel="CN10.04">
+    <item name="GPIOC.06" />
+  </pin>
+  <pin name="GPIOC.07" cfg="IO" addr="35" titel="CN10.19">
+    <item name="GPIOC.07" />
+  </pin>
+  <pin name="GPIOC.08" cfg="IO" addr="22" titel="CN10.02">
+    <item name="GPIOC.08" />
+  </pin>
+  <pin name="GPIOC.09" cfg="IO" addr="21" titel="CN10.01">
+    <item name="GPIOC.09" />
+  </pin>
+  <pin name="GPIOC.10" cfg="IO" addr="0" titel="CN07.01">
+    <item name="GPIOC.10" />
+  </pin>
+  <pin name="GPIOC.11" cfg="IO" addr="1" titel="CN07.02">
+    <item name="GPIOC.11" />
+  </pin>
+  <pin name="GPIOC.12" cfg="IO" addr="2" titel="CN07.03">
+    <item name="GPIOC.12" />
+  </pin>
+  <pin name="GPIOC.13" cfg="IO" addr="8" titel="CN07.23">
+    <item name="GPIOC.13" />
+  </pin>
+  <pin name="GPIOC.14" cfg="IO" addr="9" titel="CN07.25">
+    <item name="GPIOC.14" />
+  </pin>
+  <pin name="GPIOC.15" cfg="IO" addr="10" titel="CN07.27">
+    <item name="GPIOC.15" />
+  </pin>
+  <pin name="GPIOD.02" cfg="IO" addr="3" titel="CN07.04">
+    <item name="GPIOD.02" />
+  </pin>
+  <pin name="GPIOF.00" cfg="IO" addr="12" titel="CN07.29">
+    <item name="GPIOF.00" />
+  </pin>
+  <pin name="GPIOF.01" cfg="IO" addr="14" titel="CN07.31">
+    <item name="GPIOF.01" />
+  </pin>
+  <pin name="GPIOF.04" cfg="None" />
+  <pin name="RTC" cfg="System">
+    <item name="HSE" />
+  </pin>
+  <pin name="PLC" cfg="System">
+    <item name="8" />
+  </pin>
+</prj>

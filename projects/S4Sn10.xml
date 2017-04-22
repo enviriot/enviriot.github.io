@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prj cpu="STM32F303KT" phy1="UART">
+  <pin name="GPIOA.00" cfg="IO" addr="0" titel="A0">
+    <item name="GPIOA.00" />
+    <item name="AIN 00" />
+    <item name="PWM 02.0" />
+  </pin>
+  <pin name="GPIOA.01" cfg="IO" addr="1" titel="A1">
+    <item name="GPIOA.01" />
+    <item name="AIN 01" />
+    <item name="PWM 02.1" />
+  </pin>
+  <pin name="GPIOA.02" cfg="Phy1">
+    <item name="TX 2.10" func="TX" />
+  </pin>
+  <pin name="GPIOA.03" cfg="IO" addr="2" titel="A2">
+    <item name="GPIOA.03" />
+    <item name="AIN 03" />
+    <item name="PWM 02.3" />
+  </pin>
+  <pin name="GPIOA.04" cfg="IO" addr="3" titel="A3">
+    <item name="GPIOA.04" />
+    <item name="AIN 04" />
+    <item name="PWM 03.1" />
+  </pin>
+  <pin name="GPIOA.05" cfg="IO" addr="4" titel="A4">
+    <item name="GPIOA.05" />
+    <item name="AIN 05" />
+    <item name="PWM 02.0" />
+  </pin>
+  <pin name="GPIOA.06" cfg="IO" addr="5" titel="A5">
+    <item name="GPIOA.06" />
+    <item name="AIN 06" />
+    <item name="PWM 03.0" />
+  </pin>
+  <pin name="GPIOA.07" cfg="IO" addr="6" titel="A6">
+    <item name="GPIOA.07" />
+    <item name="AIN 07" />
+    <item name="PWM 17.0" />
+  </pin>
+  <pin name="GPIOA.08" cfg="IO" addr="17" titel="D9">
+    <item name="GPIOA.08" />
+    <item name="PWM 01.0" />
+  </pin>
+  <pin name="GPIOA.09" cfg="IO" addr="9" titel="D1">
+    <item name="GPIOA.09" />
+    <item name="PWM 01.1" />
+    <item name="TX 1.0" />
+  </pin>
+  <pin name="GPIOA.10" cfg="IO" addr="8" titel="D0">
+    <item name="GPIOA.10" />
+    <item name="PWM 01.2" />
+    <item name="RX 1.0" />
+  </pin>
+  <pin name="GPIOA.11" cfg="IO" addr="18" titel="D10">
+    <item name="GPIOA.11" />
+    <item name="PWM 01.3" />
+  </pin>
+  <pin name="GPIOA.12" cfg="IO" addr="10" titel="D2">
+    <item name="GPIOA.12" />
+    <item name="PWM 16.0" />
+  </pin>
+  <pin name="GPIOA.13" cfg="System">
+    <item name="SWDAT" />
+  </pin>
+  <pin name="GPIOA.14" cfg="System">
+    <item name="SWCLK" />
+  </pin>
+  <pin name="GPIOA.15" cfg="Phy1">
+    <item name="RX 2.10" func="RX" />
+  </pin>
+  <pin name="GPIOB.00" cfg="IO" addr="11" titel="D3">
+    <item name="GPIOB.00" />
+    <item name="PWM 03.2" />
+  </pin>
+  <pin name="GPIOB.01" cfg="IO" addr="14" titel="D6">
+    <item name="GPIOB.01" />
+    <item name="PWM 03.3" />
+  </pin>
+  <pin name="GPIOB.03" cfg="IO" addr="21" titel="D13">
+    <item name="GPIOB.03" />
+    <item name="PWM 02.1" />
+  </pin>
+  <pin name="GPIOB.04" cfg="IO" addr="20" titel="D12">
+    <item name="GPIOB.04" />
+    <item name="PWM 03.0" />
+  </pin>
+  <pin name="GPIOB.05" cfg="IO" addr="19" titel="D11">
+    <item name="GPIOB.05" />
+    <item name="PWM 17.0" />
+  </pin>
+  <pin name="GPIOB.06" cfg="IO" addr="13" titel="D5">
+    <item name="GPIOB.06" />
+    <item name="SCL 1.0" />
+  </pin>
+  <pin name="GPIOB.07" cfg="IO" addr="12" titel="D4">
+    <item name="GPIOB.07" />
+    <item name="SDA 1.0" />
+    <item name="PWM 03.3" />
+  </pin>
+  <pin name="GPIOF.00" cfg="System">
+    <item name="EXT_CLOCK" />
+  </pin>
+  <pin name="GPIOF.01" cfg="None" />
+  <pin name="RTC" cfg="System">
+    <item name="HSE" />
+  </pin>
+  <pin name="PLC" cfg="System">
+    <item name="16" />
+  </pin>
+</prj>

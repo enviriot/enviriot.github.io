@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prj cpu="ATMEGA2561" phy1="ENC28J60">
+  <pin name="PORTA.00" cfg="IO" addr="23" titel="XP2.21">
+    <item name="PORTA.00" />
+  </pin>
+  <pin name="PORTA.01" cfg="IO" addr="24" titel="XP2.23">
+    <item name="PORTA.01" />
+  </pin>
+  <pin name="PORTA.02" cfg="IO" addr="25" titel="XP2.25">
+    <item name="PORTA.02" />
+  </pin>
+  <pin name="PORTA.03" cfg="IO" addr="26" titel="XP2.27">
+    <item name="PORTA.03" />
+  </pin>
+  <pin name="PORTA.04" cfg="IO" addr="27" titel="XP2.29">
+    <item name="PORTA.04" />
+  </pin>
+  <pin name="PORTA.05" cfg="IO" addr="28" titel="XP2.31">
+    <item name="PORTA.05" />
+  </pin>
+  <pin name="PORTA.06" cfg="IO" addr="29" titel="XP2.33">
+    <item name="PORTA.06" />
+  </pin>
+  <pin name="PORTA.07" cfg="IO" addr="48" titel="XP4.15">
+    <item name="PORTA.07" />
+  </pin>
+  <pin name="PORTB.00" cfg="Phy1">
+    <item name="NSS 1.1" func="NCS" />
+  </pin>
+  <pin name="PORTB.01" cfg="Phy1">
+    <item name="SCK 1.1" func="CLK" />
+  </pin>
+  <pin name="PORTB.02" cfg="Phy1">
+    <item name="MOSI 1.1" func="SI" />
+  </pin>
+  <pin name="PORTB.03" cfg="Phy1">
+    <item name="MISO 1.1" func="SO" />
+  </pin>
+  <pin name="PORTB.04" cfg="IO" addr="5" titel="XP1.15">
+    <item name="PORTB.04" />
+  </pin>
+  <pin name="PORTB.05" cfg="IO" addr="7" titel="XP1.19">
+    <item name="PORTB.05" />
+    <item name="PWM 01.0" />
+  </pin>
+  <pin name="PORTB.06" cfg="IO" addr="6" titel="XP1.17">
+    <item name="PORTB.06" />
+    <item name="PWM 01.1" />
+  </pin>
+  <pin name="PORTB.07" cfg="IO" addr="4" titel="XP1.13">
+    <item name="PORTB.07" />
+    <item name="PWM 01.2" />
+  </pin>
+  <pin name="PORTC.00" cfg="IO" addr="41" titel="XP4.8">
+    <item name="PORTC.00" />
+  </pin>
+  <pin name="PORTC.01" cfg="IO" addr="39" titel="XP4.6">
+    <item name="PORTC.01" />
+  </pin>
+  <pin name="PORTC.02" cfg="IO" addr="38" titel="XP4.5">
+    <item name="PORTC.02" />
+  </pin>
+  <pin name="PORTC.03" cfg="IO" addr="45" titel="XP4.12">
+    <item name="PORTC.03" />
+  </pin>
+  <pin name="PORTC.04" cfg="IO" addr="47" titel="XP4.14">
+    <item name="PORTC.04" />
+  </pin>
+  <pin name="PORTC.05" cfg="IO" addr="42" titel="XP4.9">
+    <item name="PORTC.05" />
+  </pin>
+  <pin name="PORTC.06" cfg="IO" addr="43" titel="XP4.10">
+    <item name="PORTC.06" />
+  </pin>
+  <pin name="PORTC.07" cfg="IO" addr="46" titel="XP4.13">
+    <item name="PORTC.07" />
+  </pin>
+  <pin name="PORTD.00" cfg="IO" addr="30" titel="XT2.4">
+    <item name="PORTD.00" />
+    <item name="SCL 1.0" />
+  </pin>
+  <pin name="PORTD.01" cfg="IO" addr="31" titel="XT2.5">
+    <item name="PORTD.01" />
+    <item name="SDA 1.0" />
+  </pin>
+  <pin name="PORTD.02" cfg="IO" addr="32" titel="XT2.7">
+    <item name="PORTD.02" />
+    <item name="RX 1.0" />
+  </pin>
+  <pin name="PORTD.03" cfg="IO" addr="33" titel="XT2.8">
+    <item name="PORTD.03" />
+    <item name="TX 1.0" />
+  </pin>
+  <pin name="PORTD.04" cfg="IO" addr="34" titel="XT2.10">
+    <item name="PORTD.04" />
+  </pin>
+  <pin name="PORTD.05" cfg="IO" addr="35" titel="XT2.11">
+    <item name="PORTD.05" />
+  </pin>
+  <pin name="PORTD.06" cfg="IO" addr="2" titel="XP1.9">
+    <item name="PORTD.06" />
+  </pin>
+  <pin name="PORTD.07" cfg="IO" addr="1" titel="XP1.7">
+    <item name="PORTD.07" />
+  </pin>
+  <pin name="PORTE.00" cfg="IO" addr="3" titel="XP1.11">
+    <item name="PORTE.00" />
+    <item name="RX 0.0" />
+  </pin>
+  <pin name="PORTE.01" cfg="IO" addr="20" titel="XP2.15">
+    <item name="PORTE.01" />
+    <item name="TX 0.0" />
+  </pin>
+  <pin name="PORTE.02" cfg="IO" addr="18" titel="XP2.11">
+    <item name="PORTE.02" />
+  </pin>
+  <pin name="PORTE.03" cfg="IO" addr="22" titel="XP2.19">
+    <item name="PORTE.03" />
+    <item name="PWM 03.0" />
+  </pin>
+  <pin name="PORTE.04" cfg="IO" addr="21" titel="XP2.17">
+    <item name="PORTE.04" />
+    <item name="PWM 03.1" />
+  </pin>
+  <pin name="PORTE.05" cfg="IO" addr="19" titel="XP2.13">
+    <item name="PORTE.05" />
+    <item name="PWM 03.2" />
+  </pin>
+  <pin name="PORTE.06" cfg="IO" addr="17" titel="XP2.9">
+    <item name="PORTE.06" />
+  </pin>
+  <pin name="PORTE.07" cfg="IO" addr="16" titel="XP2.7">
+    <item name="PORTE.07" />
+  </pin>
+  <pin name="PORTF.00" cfg="IO" addr="9" titel="XP1.23">
+    <item name="PORTF.00" />
+    <item name="AIN 00" />
+  </pin>
+  <pin name="PORTF.01" cfg="IO" addr="10" titel="XP1.25">
+    <item name="PORTF.01" />
+    <item name="AIN 01" />
+  </pin>
+  <pin name="PORTF.02" cfg="IO" addr="11" titel="XP1.27">
+    <item name="PORTF.02" />
+    <item name="AIN 02" />
+  </pin>
+  <pin name="PORTF.03" cfg="IO" addr="12" titel="XP1.29">
+    <item name="PORTF.03" />
+    <item name="AIN 03" />
+  </pin>
+  <pin name="PORTF.04" cfg="IO" addr="13" titel="XP1.31">
+    <item name="PORTF.04" />
+    <item name="AIN 04" />
+  </pin>
+  <pin name="PORTF.05" cfg="IO" addr="14" titel="XP1.33">
+    <item name="PORTF.05" />
+    <item name="AIN 05" />
+  </pin>
+  <pin name="PORTF.06" cfg="IO" addr="36" titel="XP5.1">
+    <item name="PORTF.06" />
+    <item name="AIN 06" />
+  </pin>
+  <pin name="PORTF.07" cfg="IO" addr="37" titel="XP6.1">
+    <item name="PORTF.07" />
+    <item name="AIN 07" />
+  </pin>
+  <pin name="PORTG.00" cfg="System">
+    <item name="LED_P" />
+  </pin>
+  <pin name="PORTG.01" cfg="IO" addr="40" titel="XP4.7">
+    <item name="PORTG.01" />
+  </pin>
+  <pin name="PORTG.02" cfg="IO" addr="44" titel="XP4.11">
+    <item name="PORTG.02" />
+  </pin>
+  <pin name="PORTG.03" cfg="IO" addr="15" titel="XP2.5">
+    <item name="PORTG.03" />
+  </pin>
+  <pin name="PORTG.04" cfg="IO" addr="0" titel="XP1.5">
+    <item name="PORTG.04" />
+  </pin>
+  <pin name="PORTG.05" cfg="IO" addr="8" titel="XP1.21">
+    <item name="PORTG.05" />
+    <item name="PWM 00.1" />
+  </pin>
+  <pin name="Osc" cfg="System">
+    <item name="12.5MHz" />
+  </pin>
+</prj>

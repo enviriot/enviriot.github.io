@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cpu name="A5" ainref="0x0F">
+  <!-- ainref
+    Bit0 - Ext('e'), Bit1 - Vcc('v'), Bit2 - Int1('i'), Bit3 - Int2('I')
+  -->
+  <!-- pin 
+    fpin    - номер ноги контроллера
+  -->
+  <!-- pwm  
+    timer   - номер таймера
+    channel - канал таймер
+  -->
+  <!-- ain
+    channel - внутренний номер аналогового входа
+  -->
+  <port name="PORTA" titel="PA" offset="00" nr="0" pinset="PORTA |= (1 &lt;&lt; {0})" pinrst="PORTA amp;= ~(1 &lt;&lt; {0})" pinget="PINA &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="51">
+      <dio />
+    </pin>
+    <pin idx="1" fpin="50">
+      <dio />
+    </pin>
+    <pin idx="2" fpin="49">
+      <dio />
+    </pin>
+    <pin idx="3" fpin="48">
+      <dio />
+    </pin>
+    <pin idx="4" fpin="47">
+      <dio />
+    </pin>
+    <pin idx="5" fpin="46">
+      <dio />
+    </pin>
+    <pin idx="6" fpin="45">
+      <dio />
+    </pin>
+    <pin idx="7" fpin="44">
+      <dio />
+    </pin>
+  </port>
+  <port name="PORTB" titel="PB" offset="08" nr="1" pinset="PORTB |= (1 &lt;&lt; {0})" pinrst="PORTB &amp;= ~(1 &lt;&lt; {0})" pinget="PINB &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="10">
+      <dio />
+      <spi name="NSS"  channel="1" config="1" />
+    </pin>
+    <pin idx="1" fpin="11">
+      <dio />
+      <spi name="SCK"  channel="1" config="1" />
+    </pin>
+    <pin idx="2" fpin="12">
+      <dio />
+      <spi name="MOSI" channel="1" config="1" />
+    </pin>
+    <pin idx="3" fpin="13">
+      <dio />
+      <spi name="MISO" channel="1" config="1" />
+    </pin>
+    <pin idx="4" fpin="14">
+      <dio />
+    </pin>
+    <pin idx="5" fpin="15">
+      <dio />
+      <pwm name="OC1A" timer="1" channel="0"/>
+    </pin>
+    <pin idx="6" fpin="16">
+      <dio />
+      <pwm name="OC1B" timer="1" channel="1"/>
+    </pin>
+    <pin idx="7" fpin="17">
+      <dio />
+      <pwm name="OC1C" timer="1" channel="2"/>
+      <pwm name="OC0A" timer="0" channel="0"/>
+    </pin>
+  </port>
+  <port name="PORTC" titel="PC" offset="16" nr="2" pinset="PORTC |= (1 &lt;&lt; {0})" pinrst="PORTC &amp;= ~(1 &lt;&lt; {0})" pinget="PINC &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="35">
+      <dio />
+    </pin>
+    <pin idx="1" fpin="36">
+      <dio />
+    </pin>
+    <pin idx="2" fpin="37">
+      <dio />
+    </pin>
+    <pin idx="3" fpin="38">
+      <dio />
+    </pin>
+    <pin idx="4" fpin="39">
+      <dio />
+    </pin>
+    <pin idx="5" fpin="40">
+      <dio />
+    </pin>
+    <pin idx="6" fpin="41">
+      <dio />
+    </pin>
+    <pin idx="7" fpin="42">
+      <dio />
+    </pin>
+  </port>
+  <port name="PORTD" titel="PD" offset="24" nr="3" pinset="PORTD |= (1 &lt;&lt; {0})" pinrst="PORTD &amp;= ~(1 &lt;&lt; {0})" pinget="PIND &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="25">
+      <dio />
+      <twi name="SCL" channel="1" config="0" />
+    </pin>
+    <pin idx="1" fpin="26">
+      <dio />
+      <twi name="SDA" channel="1" config="0" />
+    </pin>
+    <pin idx="2" fpin="27">
+      <dio />
+      <serial name="RX" channel="1" config="0" />
+    </pin>
+    <pin idx="3" fpin="28">
+      <dio />
+      <serial name="TX" channel="1" config="0" />
+    </pin>
+    <pin idx="4" fpin="29">
+      <dio />
+    </pin>
+    <pin idx="5" fpin="30">
+      <dio />
+    </pin>
+    <pin idx="6" fpin="31">
+      <dio />
+    </pin>
+    <pin idx="7" fpin="32">
+      <dio />
+    </pin>
+  </port>
+  <port name="PORTE" titel="PE" offset="32" nr="4" pinset="PORTE |= (1 &lt;&lt; {0})" pinrst="PORTE &amp;= ~(1 &lt;&lt; {0})" pinget="PINE &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="02">
+      <dio />
+      <serial name="RX" channel="0" config="0" />
+    </pin>
+    <pin idx="1" fpin="03">
+      <dio />
+      <serial name="TX" channel="0" config="0" />
+    </pin>
+    <pin idx="2" fpin="04">
+      <dio />
+    </pin>
+    <pin idx="3" fpin="05">
+      <dio />
+      <pwm name="OC3A" timer="3" channel="0"/>
+    </pin>
+    <pin idx="4" fpin="06">
+      <dio />
+      <pwm name="OC3B" timer="3" channel="1"/>
+    </pin>
+    <pin idx="5" fpin="07">
+      <dio />
+      <pwm name="OC3C" timer="3" channel="2"/>
+    </pin>
+    <pin idx="6" fpin="08">
+      <dio />
+    </pin>
+    <pin idx="7" fpin="09">
+      <dio />
+    </pin>
+  </port>
+  <port name="PORTF" titel="PF" offset="40" nr="5" pinset="PORTF |= (1 &lt;&lt; {0})" pinrst="PORTF &amp;= ~(1 &lt;&lt; {0})" pinget="PINF &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="61">
+      <dio />
+      <ain name="AIN0" channel="0" />
+    </pin>
+    <pin idx="1" fpin="60">
+      <dio />
+      <ain name="AIN1" channel="1" />
+    </pin>
+    <pin idx="2" fpin="59">
+      <dio />
+      <ain name="AIN2" channel="2" />
+    </pin>
+    <pin idx="3" fpin="58">
+      <dio />
+      <ain name="AIN3" channel="3" />
+    </pin>
+    <pin idx="4" fpin="57">
+      <dio />
+      <ain name="AIN4" channel="4" />
+      <system name="JTCK" />
+    </pin>
+    <pin idx="5" fpin="56">
+      <dio />
+      <ain name="AIN5" channel="5" />
+      <system name="JTMS" />
+    </pin>
+    <pin idx="6" fpin="55">
+      <dio />
+      <ain name="AIN6" channel="6" />
+      <system name="JTD0" />
+    </pin>
+    <pin idx="7" fpin="54">
+      <dio />
+      <ain name="AIN7" channel="7" />
+      <system name="JTDI" />
+    </pin>
+  </port>
+  <port name="PORTG" titel="PG" offset="48" nr="6" pinset="PORTG |= (1 &lt;&lt; {0})" pinrst="PORTG &amp;= ~(1 &lt;&lt; {0})" pinget="PING &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="33">
+      <dio />
+    </pin>
+    <pin idx="1" fpin="34">
+      <dio />
+    </pin>
+    <pin idx="2" fpin="43">
+      <dio />
+    </pin>
+    <pin idx="3" fpin="18">
+      <dio />
+      <system name="LSE_OUT"/>
+    </pin>
+    <pin idx="4" fpin="19">
+      <dio />
+      <system name="LSE_IN"/>
+    </pin>
+    <pin idx="5" fpin="01">
+      <dio />
+      <pwm name="OC0B" timer="0" channel="1"/>
+    </pin>
+  </port>
+  <pin name="Osc">
+    <system name="8.0MHz"   src="#define F_CPU                       8000000UL" />
+    <system name="12.5MHz"  src="#define F_CPU                       12500000UL" />
+    <system name="16.0MHz"  src="#define F_CPU                       16000000UL" />
+  </pin>
+</cpu>

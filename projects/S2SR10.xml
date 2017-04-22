@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prj cpu="STM32F051RT" phy1="UART" phy2="RFM12">
+  <pin name="GPIOA.00" cfg="IO" addr="0" titel="P1.15">
+    <item name="GPIOA.00" />
+    <item name="PWM 02.0" />
+    <item name="AIN 00" />
+  </pin>
+  <pin name="GPIOA.01" cfg="IO" addr="1" titel="P1.16">
+    <item name="GPIOA.01" />
+    <item name="PWM 02.1" />
+    <item name="AIN 01" />
+  </pin>
+  <pin name="GPIOA.02" cfg="IO" addr="2" titel="P1.17">
+    <item name="GPIOA.02" />
+    <item name="PWM 02.2" />
+    <item name="AIN 02" />
+    <item name="TX 2.0" />
+  </pin>
+  <pin name="GPIOA.03" cfg="IO" addr="3" titel="P1.18">
+    <item name="GPIOA.03" />
+    <item name="PWM 02.3" />
+    <item name="AIN 03" />
+    <item name="RX 2.0" />
+  </pin>
+  <pin name="GPIOA.04" cfg="IO" addr="4" titel="P1.21">
+    <item name="GPIOA.04" />
+    <item name="PWM 14.0" />
+    <item name="AIN 04" />
+  </pin>
+  <pin name="GPIOA.05" cfg="IO" addr="5" titel="P1.22">
+    <item name="GPIOA.05" />
+    <item name="PWM 02.0" />
+    <item name="AIN 05" />
+  </pin>
+  <pin name="GPIOA.06" cfg="IO" addr="6" titel="P1.23">
+    <item name="GPIOA.06" />
+    <item name="PWM 16.0" />
+    <item name="AIN 06" />
+  </pin>
+  <pin name="GPIOA.07" cfg="IO" addr="7" titel="P1.24">
+    <item name="GPIOA.07" />
+    <item name="PWM 17.0" />
+    <item name="AIN 07" />
+  </pin>
+  <pin name="GPIOA.08" cfg="IO" addr="8" titel="P1.25">
+    <item name="GPIOA.08" />
+    <item name="PWM 01.0" />
+  </pin>
+  <pin name="GPIOA.09" cfg="IO" addr="9" titel="P2.24">
+    <item name="GPIOA.09" />
+    <item name="PWM 01.1" />
+  </pin>
+  <pin name="GPIOA.10" cfg="IO" addr="10" titel="P2.23">
+    <item name="GPIOA.10" />
+    <item name="PWM 01.2" />
+  </pin>
+  <pin name="GPIOA.11" cfg="IO" addr="11" titel="P2.22">
+    <item name="GPIOA.11" />
+    <item name="PWM 01.3" />
+  </pin>
+  <pin name="GPIOA.12" cfg="IO" addr="12" titel="P2.21">
+    <item name="GPIOA.12" />
+  </pin>
+  <pin name="GPIOA.13" cfg="System">
+    <item name="SWDAT" />
+  </pin>
+  <pin name="GPIOA.14" cfg="System">
+    <item name="SWCLK" />
+  </pin>
+  <pin name="GPIOA.15" cfg="IO" addr="15" titel="P2.16">
+    <item name="GPIOA.15" />
+    <item name="PWM 02.0" />
+  </pin>
+  <pin name="GPIOB.00" cfg="IO" addr="16" titel="P1.27">
+    <item name="GPIOB.00" />
+    <item name="PWM 03.2" />
+    <item name="AIN 08" />
+  </pin>
+  <pin name="GPIOB.01" cfg="IO" addr="17" titel="P1.28">
+    <item name="GPIOB.01" />
+    <item name="PWM 03.3" />
+    <item name="AIN 09" />
+  </pin>
+  <pin name="GPIOB.02" cfg="IO" addr="18" titel="P1.29">
+    <item name="GPIOB.02" />
+  </pin>
+  <pin name="GPIOB.03" cfg="IO" addr="19" titel="P2.11">
+    <item name="GPIOB.03" />
+    <item name="PWM 02.1" />
+  </pin>
+  <pin name="GPIOB.04" cfg="IO" addr="20" titel="P2.10">
+    <item name="GPIOB.04" />
+    <item name="PWM 03.0" />
+  </pin>
+  <pin name="GPIOB.05" cfg="IO" addr="21" titel="P2.9">
+    <item name="GPIOB.05" />
+    <item name="PWM 03.1" />
+  </pin>
+  <pin name="GPIOB.06" cfg="Phy1">
+    <item name="TX 1.1" func="TX" />
+  </pin>
+  <pin name="GPIOB.07" cfg="Phy1">
+    <item name="RX 1.1" func="RX" />
+  </pin>
+  <pin name="GPIOB.08" cfg="IO" addr="24" titel="P2.4">
+    <item name="GPIOB.08" />
+    <item name="PWM 16.0" />
+  </pin>
+  <pin name="GPIOB.09" cfg="IO" addr="25" titel="P2.3">
+    <item name="GPIOB.09" />
+    <item name="PWM 17.0" />
+  </pin>
+  <pin name="GPIOB.10" cfg="IO" addr="26" titel="P1.30">
+    <item name="GPIOB.10" />
+    <item name="PWM 02.2" />
+  </pin>
+  <pin name="GPIOB.11" cfg="Phy2">
+    <item name="GPIOB.11" func="IRQ" />
+  </pin>
+  <pin name="GPIOB.12" cfg="Phy2">
+    <item name="GPIOB.12" func="NCS" />
+  </pin>
+  <pin name="GPIOB.13" cfg="Phy2">
+    <item name="SCK 2.1" func="CLK" />
+  </pin>
+  <pin name="GPIOB.14" cfg="Phy2">
+    <item name="MISO 2.1" func="SO" />
+  </pin>
+  <pin name="GPIOB.15" cfg="Phy2">
+    <item name="MOSI 2.1" func="SI" />
+  </pin>
+  <pin name="GPIOC.00" cfg="IO" addr="32" titel="P1.11">
+    <item name="GPIOC.00" />
+    <item name="AIN 10" />
+  </pin>
+  <pin name="GPIOC.01" cfg="IO" addr="33" titel="P1.12">
+    <item name="GPIOC.01" />
+    <item name="AIN 11" />
+  </pin>
+  <pin name="GPIOC.02" cfg="IO" addr="34" titel="P1.13">
+    <item name="GPIOC.02" />
+    <item name="AIN 12" />
+  </pin>
+  <pin name="GPIOC.03" cfg="IO" addr="35" titel="P1.14">
+    <item name="GPIOC.03" />
+    <item name="AIN 13" />
+  </pin>
+  <pin name="GPIOC.04" cfg="IO" addr="36" titel="P1.25">
+    <item name="GPIOC.04" />
+    <item name="AIN 14" />
+  </pin>
+  <pin name="GPIOC.05" cfg="IO" addr="37" titel="P1.26">
+    <item name="GPIOC.05" />
+    <item name="AIN 15" />
+  </pin>
+  <pin name="GPIOC.06" cfg="IO" addr="38" titel="P2.29">
+    <item name="GPIOC.06" />
+    <item name="PWM 03.0" />
+  </pin>
+  <pin name="GPIOC.07" cfg="IO" addr="39" titel="P2.28">
+    <item name="GPIOC.07" />
+    <item name="PWM 03.1" />
+  </pin>
+  <pin name="GPIOC.08" cfg="IO" addr="40" titel="P2.27 LED-B">
+    <item name="GPIOC.08" />
+    <item name="PWM 03.2" />
+  </pin>
+  <pin name="GPIOC.09" cfg="IO" addr="41" titel="P2.26 LED-G">
+    <item name="GPIOC.09" />
+    <item name="PWM 03.3" />
+  </pin>
+  <pin name="GPIOC.10" cfg="IO" addr="42" titel="P2.15">
+    <item name="GPIOC.10" />
+  </pin>
+  <pin name="GPIOC.11" cfg="IO" addr="43" titel="P2.14">
+    <item name="GPIOC.11" />
+  </pin>
+  <pin name="GPIOC.12" cfg="IO" addr="44" titel="P2.13">
+    <item name="GPIOC.12" />
+  </pin>
+  <pin name="GPIOC.13" cfg="IO" addr="45" titel="P1.4">
+    <item name="GPIOC.13" />
+  </pin>
+  <pin name="GPIOC.14" cfg="IO" addr="46" titel="P1.5">
+    <item name="GPIOC.14" />
+  </pin>
+  <pin name="GPIOC.15" cfg="IO" addr="47" titel="P1.6">
+    <item name="GPIOC.15" />
+  </pin>
+  <pin name="GPIOD.02" cfg="IO" addr="50" titel="P2.12">
+    <item name="GPIOD.02" />
+  </pin>
+  <pin name="GPIOF.00" cfg="System">
+    <item name="EXT_CLOCK" />
+  </pin>
+  <pin name="GPIOF.01" cfg="None" />
+  <pin name="GPIOF.04" cfg="IO" addr="84" titel="P1.19">
+    <item name="GPIOF.04" />
+  </pin>
+  <pin name="GPIOF.05" cfg="IO" addr="85" titel="P1.20">
+    <item name="GPIOF.05" />
+  </pin>
+  <pin name="GPIOF.06" cfg="IO" addr="86" titel="P2.19">
+    <item name="GPIOF.06" />
+    <item name="SCL 2.3" />
+  </pin>
+  <pin name="GPIOF.07" cfg="IO" addr="87">
+    <item name="GPIOF.07" />
+    <item name="SDA 2.3" />
+  </pin>
+  <pin name="RTC" cfg="System">
+    <item name="HSE" />
+  </pin>
+  <pin name="PLC" cfg="System">
+    <item name="16" />
+  </pin>
+</prj>

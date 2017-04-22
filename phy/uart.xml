@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phy name="UART" signature="S" color="#007F7F">
+  <pin name="RX" signal="UART_RX"/>
+  <pin name="TX" signal="UART_TX"/>
+  <append fmt="#define UART_PHY_PORT               {0}">
+      <var name="uart.mapping"/>
+  </append>
+  <append fmt="#define UART_PHY                    {0}">
+      <var name="nr"/>
+  </append>
+  <append fmt="#include &quot;PHY/UART/uart_phy.h&quot;"/>
+</phy>

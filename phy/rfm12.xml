@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phy name="RFM12" signature="R">
+  <pin name="NCS" signal="SPI_NSS"/>
+  <pin name="CLK" signal="SPI_SCK"/>
+  <pin name="SO"  signal="SPI_MISO"/>
+  <pin name="SI"  signal="SPI_MOSI"/>
+  <pin name="IRQ" signal="DIO"/>
+  <append fmt="#define HAL_USE_EXTI                1"/>
+  <append fmt="#define RFM12_USE_SPI               {0}">
+      <var name="spi.channel"/>
+  </append>
+  <append fmt="#define RFM12_NSS_PIN               {0}">
+      <var name="NCS.pinnr"/>
+  </append>
+  <append fmt="#define RFM12_SELECT()              {0}">
+    <var name="NCS.pinrst" />
+  </append>
+  <append fmt="#define RFM12_RELEASE()             {0}">
+    <var name="NCS.pinset"/>
+  </append>
+  <append fmt="#define RFM12_IRQ_PIN               {0}">
+    <var name="IRQ.pinnr"/>
+  </append>
+  <append fmt="#define RFM12_IRQ_STATE()           (({0}) == 0)">
+    <var name="IRQ.pinget"/>
+  </append>
+  <append fmt="#define RFM12_PHY                   {0}">
+      <var name="nr"/>
+  </append>
+  <append fmt="#define RFM12_DEFAULT_FREQ          868300000UL"/>
+  <append fmt="#include &quot;PHY/RFM12/rfm12_phy.h&quot;"/>
+
+  <x04 name="DeviceAddr" json="{&quot;default&quot;:0,&quot;editor&quot;:&quot;Integer&quot;} " />
+  <x04 name="GroupID" json="{&quot;default&quot;:0,&quot;editor&quot;:&quot;Integer&quot;} " />
+  <x04 name="Channel" json="{&quot;default&quot;:0,&quot;editor&quot;:&quot;Integer&quot;} " />
+</phy>
+
+<!--
+// RF Section, AVR
+#define RFM12_PORT                  PORTB
+#define RFM12_DDR                   DDRB
+#define RFM12_PIN_SS                PB2
+#define RFM12_PIN_MOSI              PB3
+#define RFM12_PIN_MISO              PB4
+#define RFM12_PIN_SCK               PB5
+#define RFM12_IRQ_PORT              PORTD
+#define RFM12_IRQ_PORT_PIN          PIND
+#define RFM12_IRQ_PIN               PD2
+#define RFM12_INT0                  1
+#define RFM12_PHY                   1
+#include "PHY/RFM12/rfm12_phy.h"
+//  End RF Section
+
+// RFM12 Section, STM32F0
+#define HAL_USE_EXTI                1
+#define HAL_USE_SPI2                1       // SPI2, Config 1: PB13-PB15
+#define RFM12_USE_SPI               2
+#define RFM12_NSS_GPIO              GPIOB
+#define RFM12_NSS_PIN               GPIO_Pin_12
+#define RFM12_IRQ_PIN               27
+#define RFM12_PHY                   2
+#include "PHY/RFM12/rfm12_phy.h"
+// End RFM12 Section
+-->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phy name="RFM69" signature="Q">
+  <pin name="NCS" signal="SPI_NSS"/>
+  <pin name="CLK" signal="SPI_SCK"/>
+  <pin name="SO"  signal="SPI_MISO"/>
+  <pin name="SI"  signal="SPI_MOSI"/>
+  <pin name="IRQ" signal="DIO"/>
+  <append fmt="#define RFM69_USE_SPI               {0}">
+      <var name="spi.channel"/>
+  </append>
+  <append fmt="#define RFM69_NSS_PIN               {0}">
+      <var name="NCS.pinnr"/>
+  </append>
+  <append fmt="#define RFM69_SELECT()              {0}">
+    <var name="NCS.pinrst" />
+  </append>
+  <append fmt="#define RFM69_RELEASE()             {0}">
+    <var name="NCS.pinset"/>
+  </append>
+  <append fmt="#define RFM69_IRQ_PIN               {0}">
+    <var name="IRQ.pinnr"/>
+  </append>
+  <append fmt="#define RFM69_IRQ_STATE()           (({0}) != 0)">
+    <var name="IRQ.pinget"/>
+  </append>
+  <append fmt="#define RFM69_PHY                   {0}">
+      <var name="nr"/>
+  </append>
+  <append fmt="#define RFM69_DEFAULT_FREQ          868300000UL"/>
+  <append fmt="#include &quot;PHY/RFM69/rfm69_phy.h&quot;"/>
+
+  <x04 name="Channel" json="{&quot;default&quot;:0,&quot;editor&quot;:&quot;Integer&quot;} " />
+  <x04 name="Power" json="{&quot;default&quot;:0,&quot;editor&quot;:&quot;Integer&quot;} " />
+  <x04 name="DeviceAddr" json="{&quot;default&quot;:0,&quot;editor&quot;:&quot;Integer&quot;} " />
+  <x04 name="GroupID" json="{&quot;default&quot;:0,&quot;editor&quot;:&quot;Integer&quot;} " />
+  <x04 name="Key" json="{&quot;default&quot;:&quot;&#0164;BA&quot;}" />
+</phy>

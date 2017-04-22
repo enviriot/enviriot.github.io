@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prj cpu="STM32F303KT" phy1="RS485">
+  <pin name="GPIOA.00" cfg="IO" addr="0">
+    <item name="GPIOA.00" />
+    <item name="AIN 00" />
+    <item name="PWM 02.0" />
+  </pin>
+  <pin name="GPIOA.01" cfg="IO" addr="1">
+    <item name="GPIOA.01" />
+    <item name="AIN 01" />
+    <item name="PWM 02.1" />
+  </pin>
+  <pin name="GPIOA.02" cfg="IO" addr="2">
+    <item name="GPIOA.02" />
+    <item name="AIN 02" />
+    <item name="PWM 02.2" />
+    <item name="TX 2.0" />
+  </pin>
+  <pin name="GPIOA.03" cfg="IO" addr="3">
+    <item name="GPIOA.03" />
+    <item name="AIN 03" />
+    <item name="PWM 02.3" />
+    <item name="RX 2.0" />
+  </pin>
+  <pin name="GPIOA.04" cfg="IO" addr="4">
+    <item name="GPIOA.04" />
+    <item name="AIN 04" />
+    <item name="PWM 03.1" />
+  </pin>
+  <pin name="GPIOA.05" cfg="IO" addr="5">
+    <item name="GPIOA.05" />
+    <item name="AIN 05" />
+    <item name="PWM 02.0" />
+  </pin>
+  <pin name="GPIOA.06" cfg="IO" addr="6">
+    <item name="GPIOA.06" />
+    <item name="AIN 06" />
+    <item name="PWM 16.0" />
+  </pin>
+  <pin name="GPIOA.07" cfg="IO" addr="7">
+    <item name="GPIOA.07" />
+    <item name="AIN 07" />
+    <item name="PWM 17.0" />
+  </pin>
+  <pin name="GPIOA.08" cfg="IO" addr="9">
+    <item name="GPIOA.08" />
+    <item name="PWM 01.0" />
+  </pin>
+  <pin name="GPIOA.09" cfg="Phy1">
+    <item name="TX 1.0" func="TX" />
+  </pin>
+  <pin name="GPIOA.10" cfg="Phy1">
+    <item name="RX 1.0" func="RX" />
+  </pin>
+  <pin name="GPIOA.11" cfg="IO" addr="10">
+    <item name="GPIOA.11" />
+    <item name="PWM 01.3" />
+  </pin>
+  <pin name="GPIOA.12" cfg="Phy1">
+    <item name="DE 1.0" func="DE" />
+  </pin>
+  <pin name="GPIOA.13" cfg="IO" addr="11">
+    <item name="GPIOA.13" />
+  </pin>
+  <pin name="GPIOA.14" cfg="IO" addr="12">
+    <item name="GPIOA.14" />
+  </pin>
+  <pin name="GPIOA.15" cfg="None" />
+  <pin name="GPIOB.00" cfg="System">
+    <item name="LED_P" />
+  </pin>
+  <pin name="GPIOB.01" cfg="IO" addr="8">
+    <item name="GPIOB.01" />
+    <item name="AIN 09" />
+    <item name="PWM 03.3" />
+  </pin>
+  <pin name="GPIOB.03" cfg="None" />
+  <pin name="GPIOB.04" cfg="None" />
+  <pin name="GPIOB.05" cfg="None" />
+  <pin name="GPIOB.06" cfg="IO" addr="14">
+    <item name="GPIOB.06" />
+    <item name="SCL 1.0" />
+  </pin>
+  <pin name="GPIOB.07" cfg="IO" addr="13">
+    <item name="GPIOB.07" />
+    <item name="SDA 1.0" />
+  </pin>
+  <pin name="GPIOF.00" cfg="System">
+    <item name="HSE_IN" />
+  </pin>
+  <pin name="GPIOF.01" cfg="System">
+    <item name="HSE_OUT" />
+  </pin>
+  <pin name="RTC" cfg="System">
+    <item name="HSE" />
+  </pin>
+  <pin name="PLC" cfg="System">
+    <item name="16" />
+  </pin>
+</prj>

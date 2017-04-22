@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phy name="ENC28J60" signature="E" color="#00FF00">
+  <pin name="NCS" signal="SPI_NSS"/>
+  <pin name="CLK" signal="SPI_SCK"/>
+  <pin name="SO"  signal="SPI_MISO"/>
+  <pin name="SI"  signal="SPI_MOSI"/>
+  <append fmt="#define ENC_USE_SPI                 {0}">
+      <var name="spi.channel"/>
+  </append>
+  <append fmt="#define ENC_NSS_PIN                 {0}">
+      <var name="NCS.pinnr"/>  <!-- _nss.parent.idx + _nss.parent.port.offset -->
+  </append>
+  <append fmt="#define ENC_SELECT()                {0}">
+    <var name="NCS.pinrst" /> <!--format name="spi.nss.parent.port.pinrst"> <var name="spi.nss.parent.idx"/> </format-->
+  </append>
+  <append fmt="#define ENC_RELEASE()               {0}">
+    <var name="NCS.pinset"/> <!--format name="spi.nss.parent.port.pinset"> <var name="spi.nss.parent.idx"/> </format-->
+  </append>
+  <append fmt="#define ENC_PHY                     {0}">
+      <var name="nr"/>
+  </append>
+  <append fmt="#define OD_DEF_DEV_MAC              {{0x00,0x04,0xA3,0x00,0x00,0x05}}   // MAC MSB->LSB"/>
+  <append fmt="#include &quot;PHY/ENC28J60/enc28j60_phy.h&quot;"/>
+
+  <x04 name="MACAddr"  json="{&quot;default&quot;:&quot;&#0164;BA&quot;}" />
+  <x04 name="IPAddr"   json="{&quot;default&quot;:&quot;&#0164;BA&quot;}" />
+  <x04 name="IPMask"   json="{&quot;default&quot;:&quot;&#0164;BA&quot;}" />
+  <x04 name="IPRouter" json="{&quot;default&quot;:&quot;&#0164;BA&quot;}" />
+</phy>

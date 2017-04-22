@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prj cpu="ATMEGA328P" phy1="UART" phy2="RFM12">
+  <pin name="PORTB.00" cfg="IO" addr="11" titel="ISP.7">
+    <item name="PORTB.00" />
+  </pin>
+  <pin name="PORTB.01" cfg="IO" addr="12" titel="ISP.8">
+    <item name="PORTB.01" />
+    <item name="PWM 01.0" />
+  </pin>
+  <pin name="PORTB.02" cfg="Phy2">
+    <item name="NSS 1.1" func="NCS" />
+  </pin>
+  <pin name="PORTB.03" cfg="Phy2">
+    <item name="MOSI 1.1" func="SI" />
+  </pin>
+  <pin name="PORTB.04" cfg="Phy2">
+    <item name="MISO 1.1" func="SO" />
+  </pin>
+  <pin name="PORTB.05" cfg="Phy2">
+    <item name="SCK 1.1" func="CLK" />
+  </pin>
+  <pin name="PORTB.06" cfg="System">
+    <item name="HSE_IN" />
+  </pin>
+  <pin name="PORTB.07" cfg="System">
+    <item name="HSE_OUT" />
+  </pin>
+  <pin name="PORTC.00" cfg="IO" addr="0" titel="P1.5">
+    <item name="PORTC.00" />
+    <item name="AIN 00" />
+  </pin>
+  <pin name="PORTC.01" cfg="IO" addr="1" titel="P2.5">
+    <item name="PORTC.01" />
+    <item name="AIN 01" />
+  </pin>
+  <pin name="PORTC.02" cfg="IO" addr="2" titel="P3.5">
+    <item name="PORTC.02" />
+    <item name="AIN 02" />
+  </pin>
+  <pin name="PORTC.03" cfg="IO" addr="3" titel="P4.5">
+    <item name="PORTC.03" />
+    <item name="AIN 03" />
+  </pin>
+  <pin name="PORTC.04" cfg="IO" addr="9" titel="S.5">
+    <item name="PORTC.04" />
+    <item name="AIN 04" />
+    <item name="SDA 1.0" />
+  </pin>
+  <pin name="PORTC.05" cfg="IO" addr="10" titel="S.6">
+    <item name="PORTC.05" />
+    <item name="AIN 05" />
+    <item name="SCL 1.0" />
+  </pin>
+  <pin name="PORTD.00" cfg="Phy1">
+    <item name="RX 0.0" func="RX" />
+  </pin>
+  <pin name="PORTD.01" cfg="Phy1">
+    <item name="TX 0.0" func="TX" />
+  </pin>
+  <pin name="PORTD.02" cfg="Phy2">
+    <item name="PORTD.02" func="IRQ" />
+  </pin>
+  <pin name="PORTD.03" cfg="IO" addr="8" titel="Px.6">
+    <item name="PORTD.03" />
+  </pin>
+  <pin name="PORTD.04" cfg="IO" addr="4" titel="P1.2">
+    <item name="PORTD.04" />
+  </pin>
+  <pin name="PORTD.05" cfg="IO" addr="5" titel="P2.2">
+    <item name="PORTD.05" />
+    <item name="PWM 00.1" />
+  </pin>
+  <pin name="PORTD.06" cfg="IO" addr="6" titel="P3.2">
+    <item name="PORTD.06" />
+    <item name="PWM 00.0" />
+  </pin>
+  <pin name="PORTD.07" cfg="IO" addr="7" titel="P4.2">
+    <item name="PORTD.07" />
+  </pin>
+  <pin name="AIN6" cfg="None" />
+  <pin name="AIN7" cfg="None" />
+  <pin name="Vbg" cfg="None" />
+  <pin name="Osc" cfg="System">
+    <item name="16.0MHz" />
+  </pin>
+  <pin name="ASLEEP" cfg="None" />
+</prj>

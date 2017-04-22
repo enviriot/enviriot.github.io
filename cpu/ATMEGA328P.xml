@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cpu name="A1" ainref="0x06">
+    <!-- ainref
+        Bit0 - Ext('e'), Bit1 - Vcc('v'), Bit2 - Int1('i'), Bit3 - Int2('I')
+    -->
+    <!-- pin 
+            fpin    - номер ноги контроллера-->
+    <!-- pwm  
+            timer   - номер таймера
+            channel - канал таймер
+            -->
+    <!-- ain
+            channel - внутренний номер аналогового входа
+            -->
+  <port name="PORTB" titel="PB" offset="08" nr="1" pinset="PORTB |= (1 &lt;&lt; {0})" pinrst="PORTB &amp;= ~(1 &lt;&lt; {0})" pinget="PINB &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="12">
+      <dio />
+    </pin>
+    <pin idx="1" fpin="13">
+      <dio />
+      <pwm name="OC1A" timer="1" channel="0"/>
+    </pin>
+    <pin idx="2" fpin="14">
+      <dio />
+      <pwm name="OC1B" timer="1" channel="1"/>
+      <spi name="NSS" channel="1" config="1" />
+    </pin>
+    <pin idx="3" fpin="15">
+      <dio />
+      <spi name="MOSI" channel="1" config="1" />
+    </pin>
+    <pin idx="4" fpin="16">
+      <dio />
+      <spi name="MISO" channel="1" config="1" />
+    </pin>
+    <pin idx="5" fpin="17">
+      <dio />
+      <spi name="SCK" channel="1" config="1" />
+    </pin>
+    <pin idx="6" fpin="07">
+      <dio />
+      <system name="HSE_IN"/>
+      <system name="LSE_IN"/>
+    </pin>
+    <pin idx="7" fpin="08">
+      <dio />
+      <system name="HSE_OUT"/>
+      <system name="LSE_IN"/>
+    </pin>
+  </port>
+  <port name="PORTC" titel="PC" offset="16" nr="2" pinset="PORTC |= (1 &lt;&lt; {0})" pinrst="PORTC &amp;= ~(1 &lt;&lt; {0})" pinget="PINC &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="23">
+      <dio />
+      <ain name="AIN0" channel="0" />
+    </pin>
+    <pin idx="1" fpin="24">
+      <dio />
+      <ain name="AIN1" channel="1" />
+    </pin>
+    <pin idx="2" fpin="25">
+      <dio />
+      <ain name="AIN2" channel="2" />
+    </pin>
+    <pin idx="3" fpin="26">
+      <dio />
+      <ain name="AIN3" channel="3" />
+    </pin>
+    <pin idx="4" fpin="27">
+      <dio />
+      <ain name="AIN4" channel="4" />
+      <twi name="SDA" channel="1" config="0" />
+    </pin>
+    <pin idx="5" fpin="28">
+      <dio />
+      <ain name="AIN5" channel="5" />
+      <twi name="SCL" channel="1" config="0" />
+    </pin>
+  </port>
+  <port name="PORTD" titel="PD" offset="24" nr="3" pinset="PORTD |= (1 &lt;&lt; {0})" pinrst="PORTD &amp;= ~(1 &lt;&lt; {0})" pinget="PIND &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="30">
+      <dio />
+      <serial name="RX" channel="0" config="0" />
+    </pin>
+    <pin idx="1" fpin="31">
+      <dio />
+      <serial name="TX" channel="0" config="0" />
+    </pin>
+    <pin idx="2" fpin="32">
+      <dio />
+      <serial name="DE" channel="0" config="0" />
+    </pin>
+    <pin idx="3" fpin="01">
+      <dio />
+    </pin>
+    <pin idx="4" fpin="02">
+      <dio />
+    </pin>
+    <pin idx="5" fpin="09">
+      <dio />
+      <pwm name="OC0B" timer="0" channel="1"/>
+    </pin>
+    <pin idx="6" fpin="10">
+      <dio />
+      <pwm name="OC0A" timer="0" channel="0"/>
+    </pin>
+    <pin idx="7" fpin="11">
+      <dio />
+    </pin>
+  </port>
+  <pin name="AIN6" fpin="19">
+      <ain name="AIN6" channel="6" />
+  </pin>
+  <pin name="AIN7" fpin="22">
+      <ain name="AIN7" channel="7" />
+  </pin>
+  <pin name="Vbg">
+      <ain name="VBG" channel="14" ainref="0x02" />
+  </pin>
+  <pin name="Osc">
+    <system name="8.0MHz"  src="#define F_CPU                       8000000UL" />
+    <system name="12.5MHz" src="#define F_CPU                       12500000UL" />
+    <system name="16.0MHz" src="#define F_CPU                       16000000UL" />
+  </pin>
+  <pin name="ASLEEP">
+    <system name="Off"  src="#define ASLEEP                      1&#13;&#10;#define OD_DEFAULT_TASLEEP          0" />
+    <system name="5min" src="#define ASLEEP                      1&#13;&#10;#define OD_DEFAULT_TASLEEP          300" />
+  </pin>
+</cpu>

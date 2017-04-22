@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cpu name="S5" ainref="0x02">
+    <!-- ainref
+        Bit0 - Ext('e'), Bit1 - Vcc('v'), Bit2 - Int1('i'), Bit3 - Int2('I')
+    -->
+    <!-- pin 
+            fpin    - номер ноги контроллера
+    -->
+    <!-- pwm  
+            timer   - номер таймера
+            channel - канал таймер
+            af      - номер альтернативной функции
+            -->
+    <!-- ain
+            channel - внутренний номер аналогового входа
+            -->
+  <port name="GPIOA" titel="PA" offset="0"  nr="0" pinset="GPIOA-&gt;BSRR = (1 &lt;&lt; {0})" pinrst="GPIOA-&gt;BRR = (1 &lt;&lt; {0})" pinget="GPIOA-&gt;IDR &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="14">
+      <dio />
+      <pwm name="TIM2_CH1" timer="2" channel="1" af="2"/>
+      <ain name="AIN0" channel="0" />
+    </pin>
+    <pin idx="1" fpin="15">
+      <dio />
+      <pwm timer="2" channel="2" af="2"/>
+      <ain name="AIN1" channel="1" />
+      <serial name="DE" channel="2" config="0" />
+    </pin>
+    <pin idx="2" fpin="16">
+      <dio />
+      <pwm timer="2"   channel="3" af="2"/>
+      <pwm timer="21"  channel="1" af="0"/>
+      <ain name="AIN2" channel="2" />
+      <serial name="TX" channel="2" config="0" />
+    </pin>
+    <pin idx="3" fpin="17">
+      <dio />
+      <pwm timer="2"   channel="4" af="2"/>
+      <pwm timer="21"  channel="2" af="0"/>
+      <ain name="AIN3" channel="3" />
+      <serial name="RX" channel="2" config="0" />
+    </pin>
+    <pin idx="4" fpin="20">
+      <dio />
+      <pwm timer="14"  channel="1" af="4"/>
+      <ain name="AIN4" channel="4" />
+    </pin>
+    <pin idx="5" fpin="21">
+      <dio />
+      <pwm timer="2"   channel="1" af="5"/>
+      <ain name="AIN5" channel="5" />
+      <spi name="SCK" channel="1" config="1" />
+    </pin>
+    <pin idx="6" fpin="22">
+      <dio />
+      <pwm timer="22"  channel="1" af="5"/>
+      <ain name="AIN6" channel="6" />
+      <spi name="MISO" channel="1" config="1" />
+    </pin>
+    <pin idx="7" fpin="23">
+      <dio />
+      <pwm timer="22"  channel="2" af="5"/>
+      <ain name="AIN7" channel="7" />
+      <spi name="MOSI" channel="1" config="1" />
+    </pin>
+    <pin idx="8" fpin="41">
+      <dio />
+    </pin>
+    <pin idx="9" fpin="42">
+      <dio />
+      <!--<serial name="TX" channel="1" config="0" />-->
+    </pin>
+    <pin idx="10" fpin="43">
+      <dio />
+      <!--<serial name="RX" channel="1" config="0" />-->
+    </pin>
+    <pin idx="11" fpin="44">
+      <dio />
+    </pin>
+    <pin idx="12" fpin="45">
+      <dio />
+      <!--<serial name="DE" channel="1" config="0" />-->
+    </pin>
+    <pin idx="13" fpin="46" default="SWDAT">
+      <dio />
+      <system name="SWDAT" af="0" />
+    </pin>
+    <pin idx="14" fpin="49" default="SWCLK">
+      <dio />
+      <system name="SWCLK" af="0" />
+      <!--<serial name="TX" channel="2" config="1"/>-->
+    </pin>
+    <pin idx="15" fpin="50">
+      <dio />
+      <pwm timer="2"   channel="1" af="5"/>
+      <!--<serial name="RX" channel="2" config="1"/>-->
+    </pin>
+  </port>
+  <port name="GPIOB" titel="PB" offset="16" nr="1" pinset="GPIOB-&gt;BSRR = (1 &lt;&lt; {0})" pinrst="GPIOB-&gt;BRR = (1 &lt;&lt; {0})" pinget="GPIOB-&gt;IDR &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="26">
+      <dio />
+      <ain name="AIN8" channel="8" />
+    </pin>
+    <pin idx="1" fpin="27">
+      <dio />
+      <ain name="AIN9" channel="9" />
+    </pin>
+    <pin idx="2" fpin="28">
+      <dio />
+    </pin>
+    <pin idx="3" fpin="55">
+      <dio />
+      <pwm timer="2"   channel="2" af="2"/>
+      <spi name="SCK" channel="1" config="2" />
+    </pin>
+    <pin idx="4" fpin="56">
+      <dio />
+      <pwm timer="22"  channel="1" af="4"/>
+      <spi name="MISO" channel="1" config="2" />
+    </pin>
+    <pin idx="5" fpin="57">
+      <dio />
+      <pwm timer="22"  channel="2" af="4"/>
+      <spi name="MOSI" channel="1" config="2" />
+    </pin>
+    <pin idx="6" fpin="58">
+      <dio />
+      <!--<serial name="TX" channel="1" config="1" />-->
+      <twi name="SCL" channel="1" config="0" />
+    </pin>
+    <pin idx="7" fpin="59">
+      <dio />
+      <!--<serial name="RX" channel="1" config="1" />-->
+      <twi name="SDA" channel="1" config="0" />
+    </pin>
+    <pin idx="8" fpin="61">
+      <dio />
+      <twi name="SCL" channel="1" config="1" />
+    </pin>
+    <pin idx="9" fpin="62">
+      <dio />
+      <twi name="SDA" channel="1" config="1" />
+    </pin>
+    <pin idx="10" fpin="29">
+      <dio />
+      <twi name="SCL" channel="2" config="0" />
+      <pwm timer="2"  channel="3" af="2"/>
+    </pin>
+    <pin idx="11" fpin="30">
+      <dio />
+      <twi name="SDA" channel="2" config="0" />
+      <pwm timer="2"  channel="4" af="2"/>
+    </pin>
+    <pin idx="12" fpin="33">
+      <dio />
+    </pin>
+    <pin idx="13" fpin="34">
+      <dio />
+      <spi name="SCK" channel="2" config="0" />
+      <twi name="SCL" channel="2" config="1" />
+    </pin>
+    <pin idx="14" fpin="35">
+      <dio />
+      <spi name="MISO" channel="2" config="0" />
+      <twi name="SDA" channel="2" config="1" />
+    </pin>
+    <pin idx="15" fpin="36">
+      <dio />
+      <spi name="MOSI" channel="2" config="0" />
+    </pin>
+  </port>
+  <port name="GPIOC" titel="PC" offset="32" nr="2" pinset="GPIOC-&gt;BSRR = (1 &lt;&lt; {0})" pinrst="GPIOC-&gt;BRR = (1 &lt;&lt; {0})" pinget="GPIOC-&gt;IDR &amp; (1 &lt;&lt; {0})">
+    <pin idx="0" fpin="08">
+      <dio />
+      <ain name="AIN10" channel="10" />
+    </pin>
+    <pin idx="1" fpin="09">
+      <dio />
+      <ain name="AIN10" channel="10" />
+    </pin>
+    <pin idx="2" fpin="10">
+      <dio />
+      <ain name="AIN10" channel="10" />
+    </pin>
+    <pin idx="3" fpin="11">
+      <dio />
+      <ain name="AIN10" channel="10" />
+    </pin>
+    <pin idx="4" fpin="24">
+      <dio />
+      <ain name="AIN10" channel="10" />
+    </pin>
+    <pin idx="5" fpin="25">
+      <dio />
+      <ain name="AIN10" channel="10" />
+    </pin>
+    <pin idx="6" fpin="37">
+      <dio />
+    </pin>
+    <pin idx="7" fpin="38">
+      <dio />
+    </pin>
+    <pin idx="8" fpin="39">
+      <dio />
+    </pin>
+    <pin idx="9" fpin="40">
+      <dio />
+    </pin>
+    <pin idx="10" fpin="51">
+      <dio />
+    </pin>
+    <pin idx="11" fpin="52">
+      <dio />
+    </pin>
+    <pin idx="12" fpin="53">
+      <dio />
+    </pin>
+    <pin idx="13" fpin="02">
+        <dio />
+    </pin>
+    <pin idx="14" fpin="03">
+        <dio />
+        <system name="LSE_IN"/>
+    </pin>
+    <pin idx="15" fpin="04">
+        <dio />
+        <system name="LSE_OUT"/>
+    </pin>
+  </port>
+  <port name="GPIOD" titel="PD" offset="48" nr="3" pinset="GPIOD-&gt;BSRR = (1 &lt;&lt; {0})" pinrst="GPIOD-&gt;BRR = (1 &lt;&lt; {0})" pinget="GPIOD-&gt;IDR &amp; (1 &lt;&lt; {0})">
+    <pin idx="2" fpin="54">
+      <dio />
+    </pin>
+  </port>
+  <pin name="RTC">
+    <system name="LSI" src="#define                            HAL_USE_RTC 1" />
+    <system name="HSE" src="#define                            HAL_USE_RTC 1&#13;&#10;#define                            HAL_RTC_USE_HSE" />
+    <system name="LSE" src="#define                            HAL_USE_RTC 1&#13;&#10;#define                            HAL_RTC_CHECK_LSE 1" />
+  </pin>
+</cpu>
