@@ -1,0 +1,25 @@
+﻿<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<xst path='/'>
+  <i n='$YS' m='{"attr":1}'>
+    <i n='TYPES' m='{"attr":1}'>
+      <i n='Core' m='{"attr":1}' ver="0.4.1704.10007">
+        <i n='Boolean' s='{"default":false,"willful":true}' m='{"attr":5}' />
+        <i n='ByteArray' s='{"default":"¤BA","willful":true}' m='{"attr":5}' />
+        <i n='Date' s='{"default":"1001-01-01T12:00:00.000Z","willful":true}' m='{"attr":5}' />
+        <i n='Double' s='{"default":0,"willful":true}' m='{"attr":5}' />
+        <i n='Integer' s='{"default":0,"manifest":{"editor":"Integer"},"willful":true}' m='{"attr":5}' />
+        <i n='Manifest' s='{"mi":{"attr":{"editor":"Attribute","attr":1},"editor":{"default":"","editor":"Editor"},"MQTT":{"default":{"uri":""},"mi":{"uri":{"default":""}}},"MQTT-SN":{"attr":1,"mi":{"tag":{"attr":3},"convIn":{"default":"","editor":"JS","hint":"value converter for input"},"convOut":{"default":"","editor":"JS","hint":"value converter for output"}}},"type":{"default":""}}}' m='{"attr":5}' />
+        <i n='Object' s='{"default":{},"willful":true}' m='{"attr":5}' />
+        <i n='String' s='{"default":"","willful":true}' m='{"attr":5}' />
+      </i>
+      <i n='ES' m='{"attr":1}' ver="0.4.1703.7005">
+        <i n='Connection' s='{"Children":{},"Fields":{"Address":{"attr":3},"Dns":{"attr":3},"Port":{"attr":3}},"icon":"EsConnection"}' m='{"attr":5}' />
+      </i>
+      <i n='Enum' m='{"attr":1}'>
+        <i n='MsStatus' s='["Offline","Online","Sleep"]'  m='{"attr":7}' />
+      </i>
+      <i n='MQTT-SN'>
+      </i>
+    </i>
+  </i>
+</xst>
