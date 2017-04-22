@@ -1,5 +1,23 @@
 ![Logo](logo.png)
 
+### Enviriot Server (bin/enviriot.exe)
+- [x] Repository
+- [x] Persitent Storage
+
+### Enviriot Studio (bin_ui/ES.exe)
+- [x] Inspector view
+- [x] Output view
+
+### MQTT Client (bin/MQTT.dll)
+- [x] MQTT v3.1
+
+### MQTT-SN (bin/MQTT-SN.dll)
+- [x] MQTT-SN v1.2
+- [x] ZeroConf. Search gateway & DHCP for devices
+- [x] GPIO. Digital inputs/outputs, Analog inputs, PWM, UART.
+- [ ] TWI(I2C)
+- [ ] EmbeddedPLC
+
 Download | Link
 ---------|------
 Enviriot Software | [v0.4.1704.21014](https://github.com/enviriot/enviriot.github.io/archive/bin.zip)
