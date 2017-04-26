@@ -8,11 +8,11 @@
 - [x] Inspector view
 - [x] Output view
 
-### MQTT Client (bin/MQTT.dll)
-- [x] MQTT v3.1
+### plugin MQTT (bin/MQTT.dll)
+- [x] MQTT Client v3.1
 
-### MQTT-SN (bin/MQTT-SN.dll)
-- [x] MQTT-SN v1.2
+### plugin MQTT-SN (bin/MQTT-SN.dll)
+- [x] MQTT-SN Broker v1.2
 - [x] ZeroConf. Search gateway & DHCP for devices
 - [x] GPIO. Digital inputs/outputs, Analog inputs, PWM, UART.
 - [ ] TWI(I2C)
