@@ -20,6 +20,10 @@
       <var name="nr"/>
   </append>
   <append fmt="#define OD_DEF_DEV_MAC              {{0x00,0x04,0xA3,0x00,0x00,0x05}}   // MAC MSB->LSB"/>
+  <append fmt="//#define OD_DEF_IP_ADDR              inet_addr(192,168,10,202)"/>
+  <append fmt="//#define OD_DEF_IP_MASK              inet_addr(255,255,255,0)"/>
+  <append fmt="//#define OD_DEF_IP_ROUTER            inet_addr(192,168,10,1)"/>
+  <append fmt="//#define OD_DEF_IP_BROKER            inet_addr(192,168,20,8)"/>
   <append fmt="#include &quot;PHY/ENC28J60/enc28j60_phy.h&quot;"/>
 
   <x04 name="MACAddr"  json="{&quot;default&quot;:&quot;&#0164;BA&quot;}" />

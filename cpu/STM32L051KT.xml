@@ -139,9 +139,17 @@
         <system name="LSE_OUT"/>
     </pin>
   </port>
+  <pin name="Vbg">
+      <ain name="VBG" channel="17" />
+  </pin>
   <pin name="RTC">
     <system name="LSI" src="#define                            HAL_USE_RTC 1" />
     <system name="HSE" src="#define                            HAL_USE_RTC 1&#13;&#10;#define                            HAL_RTC_USE_HSE" />
     <system name="LSE" src="#define                            HAL_USE_RTC 1&#13;&#10;#define                            HAL_RTC_CHECK_LSE 1" />
+  </pin>
+  <pin name="PLC">
+    <system name="8" />
+    <system name="16" />
+    <system name="32" />
   </pin>
 </cpu>
