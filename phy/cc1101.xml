@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<phy name="CC1101" signature="C" color="#FF0000">
+<phy name="CC1101" signature="C" color="#FFFF00">
   <pin name="NCS" signal="SPI_NSS"/>
   <pin name="CLK" signal="SPI_SCK"/>
   <pin name="SO"  signal="SPI_MISO"/>
