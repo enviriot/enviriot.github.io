@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prj cpu="STM32F303RET" phy1="W5500" phy2="RS485" phy3="CC1101">
+  <pin name="GPIOA.00" cfg="IO" addr="3">
+    <item name="GPIOA.00" />
+    <item name="AIN 00" />
+    <item name="PWM 02.0" />
+  </pin>
+  <pin name="GPIOA.01" cfg="IO" addr="4">
+    <item name="GPIOA.01" />
+    <item name="AIN 01" />
+    <item name="PWM 02.1" />
+  </pin>
+  <pin name="GPIOA.02" cfg="IO" addr="5">
+    <item name="GPIOA.02" />
+    <item name="AIN 02" />
+    <item name="TX 2.0" />
+    <item name="PWM 15.0" />
+  </pin>
+  <pin name="GPIOA.03" cfg="IO" addr="6">
+    <item name="GPIOA.03" />
+    <item name="AIN 03" />
+    <item name="RX 2.0" />
+    <item name="PWM 15.1" />
+  </pin>
+  <pin name="GPIOA.04" cfg="IO" addr="7">
+    <item name="GPIOA.04" />
+    <item name="AIN 04" />
+    <item name="PWM 03.1" />
+  </pin>
+  <pin name="GPIOA.05" cfg="IO" addr="8">
+    <item name="GPIOA.05" />
+    <item name="AIN 05" />
+    <item name="PWM 02.0" />
+  </pin>
+  <pin name="GPIOA.06" cfg="IO" addr="9">
+    <item name="GPIOA.06" />
+    <item name="AIN 06" />
+    <item name="PWM 16.0" />
+  </pin>
+  <pin name="GPIOA.07" cfg="IO" addr="10">
+    <item name="GPIOA.07" />
+    <item name="AIN 07" />
+    <item name="PWM 17.0" />
+  </pin>
+  <pin name="GPIOA.08" cfg="None" />
+  <pin name="GPIOA.09" cfg="Phy2">
+    <item name="TX 1.0" func="TX" />
+  </pin>
+  <pin name="GPIOA.10" cfg="Phy2">
+    <item name="RX 1.0" func="RX" />
+  </pin>
+  <pin name="GPIOA.11" cfg="None" />
+  <pin name="GPIOA.12" cfg="Phy2">
+    <item name="DE 1.0" func="DE" />
+  </pin>
+  <pin name="GPIOA.13" cfg="System">
+    <item name="SWDAT" />
+  </pin>
+  <pin name="GPIOA.14" cfg="System">
+    <item name="SWCLK" />
+  </pin>
+  <pin name="GPIOA.15" cfg="None" />
+  <pin name="GPIOB.00" cfg="IO" addr="17">
+    <item name="GPIOB.00" />
+    <item name="AIN 08" />
+    <item name="PWM 03.2" />
+  </pin>
+  <pin name="GPIOB.01" cfg="IO" addr="18">
+    <item name="GPIOB.01" />
+    <item name="AIN 09" />
+    <item name="PWM 03.3" />
+  </pin>
+  <pin name="GPIOB.02" cfg="System">
+    <item name="LED_P" />
+  </pin>
+  <pin name="GPIOB.03" cfg="Phy1">
+    <item name="GPIOB.03" func="SCS" />
+    <item name="SCK 1.2" />
+  </pin>
+  <pin name="GPIOB.04" cfg="Phy1">
+    <item name="GPIOB.04" func="IRQ" />
+    <item name="MISO 1.2" />
+  </pin>
+  <pin name="GPIOB.05" cfg="None">
+    <item name="MOSI 1.2" />
+  </pin>
+  <pin name="GPIOB.06" cfg="None">
+    <item name="GPIOB.06" />
+  </pin>
+  <pin name="GPIOB.07" cfg="None">
+    <item name="GPIOB.07" />
+  </pin>
+  <pin name="GPIOB.08" cfg="IO" addr="13">
+    <item name="GPIOB.08" />
+    <item name="PWM 04.2" />
+  </pin>
+  <pin name="GPIOB.09" cfg="IO" addr="14">
+    <item name="GPIOB.09" />
+    <item name="PWM 04.3" />
+  </pin>
+  <pin name="GPIOB.10" cfg="IO" addr="19">
+    <item name="GPIOB.10" />
+    <item name="PWM 02.2" />
+    <item name="TX 3.0" />
+  </pin>
+  <pin name="GPIOB.11" cfg="IO" addr="20">
+    <item name="GPIOB.11" />
+    <item name="PWM 02.3" />
+    <item name="RX 3.0" />
+  </pin>
+  <pin name="GPIOB.12" cfg="Phy3">
+    <item name="GPIOB.12" func="NCS" />
+  </pin>
+  <pin name="GPIOB.13" cfg="Phy3">
+    <item name="SCK 2.1" func="CLK" />
+  </pin>
+  <pin name="GPIOB.14" cfg="Phy3">
+    <item name="MISO 2.1" func="SO" />
+  </pin>
+  <pin name="GPIOB.15" cfg="Phy3">
+    <item name="MOSI 2.1" func="SI" />
+  </pin>
+  <pin name="GPIOC.00" cfg="None" />
+  <pin name="GPIOC.01" cfg="None" />
+  <pin name="GPIOC.02" cfg="None" />
+  <pin name="GPIOC.03" cfg="None" />
+  <pin name="GPIOC.04" cfg="IO" addr="15">
+    <item name="GPIOC.04" />
+    <item name="AIN 19" />
+  </pin>
+  <pin name="GPIOC.05" cfg="IO" addr="16">
+    <item name="GPIOC.05" />
+    <item name="AIN 20" />
+  </pin>
+  <pin name="GPIOC.06" cfg="Phy3">
+    <item name="GPIOC.06" func="GPIO0" />
+  </pin>
+  <pin name="GPIOC.07" cfg="Phy3">
+    <item name="GPIOC.07" func="GPIO2" />
+  </pin>
+  <pin name="GPIOC.08" cfg="None" />
+  <pin name="GPIOC.09" cfg="None" />
+  <pin name="GPIOC.10" cfg="Phy1">
+    <item name="SCK 3.2" func="SCLK" />
+  </pin>
+  <pin name="GPIOC.11" cfg="Phy1">
+    <item name="MISO 3.2" func="MISO" />
+  </pin>
+  <pin name="GPIOC.12" cfg="Phy1">
+    <item name="MOSI 3.2" func="MOSI" />
+  </pin>
+  <pin name="GPIOC.13" cfg="None" />
+  <pin name="GPIOC.14" cfg="None" />
+  <pin name="GPIOC.15" cfg="None" />
+  <pin name="GPIOD.02" cfg="Phy1">
+    <item name="GPIOD.02" func="RST" />
+  </pin>
+  <pin name="GPIOF.00" cfg="System">
+    <item name="HSE_IN" />
+  </pin>
+  <pin name="GPIOF.01" cfg="System">
+    <item name="HSE_OUT" />
+  </pin>
+  <pin name="RTC" cfg="System">
+    <item name="HSE" />
+  </pin>
+  <pin name="PLC" cfg="System">
+    <item name="32" />
+  </pin>
+</prj>
