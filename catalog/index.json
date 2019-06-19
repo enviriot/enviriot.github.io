@@ -1,5 +1,12 @@
 [
   {
-    "name":"Logram"
+    "name":"Logram",
+    "info":"Visually programmable logic",
+    "children":"logram"
+  },
+  {
+    "name":"MQTT-SN",
+    "info":"MQTT-SN server",
+    "children":"mqtt-sn"
   }
 ]

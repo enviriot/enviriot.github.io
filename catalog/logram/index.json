@@ -1,0 +1,17 @@
+[
+  {
+    "name":"Ambient",
+    "hint":"LoBlocks for environmental sensors",
+    "children":"Ambient"
+  },
+  {
+    "name":"Common",
+    "hint":"General purpose LoBlocks",
+    "children":"Common"
+  },
+  {
+    "name":"Timer",
+    "hint":"LoBlocks for time intervals",
+    "children":"Timer"
+  }
+]

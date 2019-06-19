@@ -1,0 +1,16 @@
+[
+  {
+    "name":"APDS9930",
+    "hint":"Digital Proximity and Ambient Light Sensor",
+    "ver":"0.4.1810.11002",
+    "src":"APDS9930.xst",
+    "path":"/$YS/TYPES/TWI/APDS9930"
+  },
+  {
+    "name":"BME680",
+    "hint":"Temperature, Humidity, Pressure and Gas Sensor",
+    "ver":"0.4.1801.16001",
+    "src":"BME680.xst",
+    "path":"/$YS/TYPES/TWI/BME680"
+  },
+]

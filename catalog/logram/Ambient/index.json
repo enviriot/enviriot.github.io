@@ -1,0 +1,9 @@
+[
+  {
+    "name":"Humindex",
+    "hint":"LoBlocks for environmental sensors",
+    "ver":"0.4.1903.7658",
+    "src":"Humindex.xst",
+    "path":"/$YS/TYPES/LoBlock/Ambient/Humindex"
+  }
+]

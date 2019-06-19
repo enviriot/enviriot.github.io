@@ -1,0 +1,23 @@
+[
+  {
+    "name":"Average",
+    "hint":"Average",
+    "ver":"0.4.1808.7003",
+    "src":"Average.xst",
+    "path":"/$YS/TYPES/LoBlock/Common/Average"
+  },
+  {
+    "name":"Forecast",
+    "hint":"Forecast",
+    "ver":"0.4.1805.22689",
+    "src":"Forecast.xst",
+    "path":"/$YS/TYPES/LoBlock/Common/Forecast"
+  },
+  {
+    "name":"Latch",
+    "hint":"Latch",
+    "ver":"0.4.1808.6002",
+    "src":"Latch.xst",
+    "path":"/$YS/TYPES/LoBlock/Common/Latch"
+  }
+]
