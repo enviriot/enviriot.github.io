@@ -1,0 +1,51 @@
+[
+  {
+    "name":"APDS9930",
+    "hint":"Digital Proximity and Ambient Light Sensor",
+    "ver":"0.4.1810.11002",
+    "src":"APDS9930.xst",
+    "path":"/$YS/TYPES/TWI/APDS9930"
+  },
+  {
+    "name":"BH1750",
+    "hint":"Ambient Light Sensor",
+    "ver":"0.4.1906.21000",
+    "src":"BH1750.xst",
+    "path":"/$YS/TYPES/TWI/BH1750"
+  },
+  {
+    "name":"BME280",
+    "hint":"Temperature, Humidity and Pressure Sensor",
+    "ver":"0.4.1906.21000",
+    "src":"BME280.xst",
+    "path":"/$YS/TYPES/TWI/BME280"
+  },
+  {
+    "name":"BME680",
+    "hint":"Temperature, Humidity, Pressure and Gas Sensor",
+    "ver":"0.4.1801.16001",
+    "src":"BME680.xst",
+    "path":"/$YS/TYPES/TWI/BME680"
+  },
+  {
+    "name":"CC2D",
+    "hint":"Calibrated Humidity and Temperature Sensor",
+    "ver":"0.4.1906.21000",
+    "src":"CC2D.xst",
+    "path":"/$YS/TYPES/TWI/CC2D"
+  },
+  {
+    "name":"HDC1080",
+    "hint":"Low Power, High Accuracy Digital Humidity Sensor with Temperature Sensor",
+    "ver":"0.4.1906.21000",
+    "src":"HDC1080.xst",
+    "path":"/$YS/TYPES/TWI/HDC1080"
+  },
+  {
+    "name":"LM75",
+    "hint":"Temperature Sensor",
+    "ver":"0.4.1906.21000",
+    "src":"LM75.xst",
+    "path":"/$YS/TYPES/TWI/LM75"
+  }
+]

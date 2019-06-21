@@ -1,7 +1,23 @@
 [
   {
-    "name":"TWI",
-    "hint":"Drivers for TWI devices",
-    "children":"TWI"
+    "name":"A1C12",
+    "hint":"Panstamp v1",
+    "ver":"3.4.1906.21000",
+    "src":"A1C12.xst",
+    "path":"/$YS/TYPES/MQTT-SN/A1C12"
+  },
+  {
+    "name":"S4EMC14",
+    "hint":"Gate Ethernet -> RS485 & RF(CC11)",
+    "ver":"3.4.1906.21000",
+    "src":"S4EMC14.xst",
+    "path":"/$YS/TYPES/MQTT-SN/S4EMC14"
+  },
+  {
+    "name":"S4M13",
+    "hint":"Node RS485",
+    "ver":"3.4.1906.21000",
+    "src":"S4M13.xst",
+    "path":"/$YS/TYPES/MQTT-SN/S4M13"
   }
 ]

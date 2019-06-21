@@ -14,10 +14,24 @@
     "path":"/$YS/TYPES/LoBlock/Common/Forecast"
   },
   {
+    "name":"Last",
+    "hint":"Last value",
+    "ver":"0.4.1712.23001",
+    "src":"Last.xst",
+    "path":"/$YS/TYPES/LoBlock/Common/Last"
+  },
+  {
     "name":"Latch",
     "hint":"Latch",
     "ver":"0.4.1808.6002",
     "src":"Latch.xst",
     "path":"/$YS/TYPES/LoBlock/Common/Latch"
+  },
+  {
+    "name":"PID",
+    "hint":"Proportional Integral Derivative controller",
+    "ver":"0.4.1802.2002",
+    "src":"PID.xst",
+    "path":"/$YS/TYPES/LoBlock/Common/PID"
   }
 ]

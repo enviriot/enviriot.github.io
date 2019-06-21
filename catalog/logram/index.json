@@ -10,6 +10,11 @@
     "children":"Common"
   },
   {
+    "name":"Clouds",
+    "hint":"LoBlocks for export to Cloud services",
+    "children":"Clowds"
+  },
+  {
     "name":"Timer",
     "hint":"LoBlocks for time intervals",
     "children":"Timer"

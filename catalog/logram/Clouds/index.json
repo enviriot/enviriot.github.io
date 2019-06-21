@@ -1,0 +1,9 @@
+[
+  {
+    "name":"NarodMon",
+    "hint":"LoBlocks for environmental sensors",
+    "ver":"0.4.1802.4003",
+    "src":"NarodMon.xst",
+    "path":"/$YS/TYPES/LoBlock/Cloud/NarodMon"
+  }
+]
