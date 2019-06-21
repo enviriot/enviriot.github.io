@@ -12,7 +12,7 @@
   {
     "name":"Clouds",
     "hint":"LoBlocks for export to Cloud services",
-    "children":"Clowds"
+    "children":"Clouds"
   },
   {
     "name":"Timer",
