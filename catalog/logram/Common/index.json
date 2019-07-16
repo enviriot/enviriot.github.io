@@ -1,37 +1,37 @@
-[
-  {
-    "name":"Average",
-    "hint":"Average",
-    "ver":"0.4.1808.7003",
-    "src":"Average.xst",
-    "path":"/$YS/TYPES/LoBlock/Common/Average"
-  },
-  {
-    "name":"Forecast",
-    "hint":"Forecast",
-    "ver":"0.4.1805.22689",
-    "src":"Forecast.xst",
-    "path":"/$YS/TYPES/LoBlock/Common/Forecast"
-  },
-  {
-    "name":"Last",
-    "hint":"Last value",
-    "ver":"0.4.1712.23001",
-    "src":"Last.xst",
-    "path":"/$YS/TYPES/LoBlock/Common/Last"
-  },
-  {
-    "name":"Latch",
-    "hint":"Latch",
-    "ver":"0.4.1808.6002",
-    "src":"Latch.xst",
-    "path":"/$YS/TYPES/LoBlock/Common/Latch"
-  },
-  {
-    "name":"PID",
-    "hint":"Proportional Integral Derivative controller",
-    "ver":"0.4.1802.2002",
-    "src":"PID.xst",
-    "path":"/$YS/TYPES/LoBlock/Common/PID"
-  }
+﻿[
+{
+"name":"Average",
+"src":"Average.xst",
+"path":"/$YS/TYPES/LoBlock/Common/Average",
+"ver":"0.4.1808.7003",
+"hint":"Average"
+},
+{
+"name":"Forecast",
+"src":"Forecast.xst",
+"path":"/$YS/TYPES/LoBlock/Common/Forecast",
+"ver":"0.4.1805.22689",
+"hint":"Forecast"
+},
+{
+"name":"Last",
+"src":"Last.xst",
+"path":"/$YS/TYPES/LoBlock/Common/Last",
+"ver":"0.4.1712.23001",
+"hint":"Last value"
+},
+{
+"name":"Latch",
+"src":"Latch.xst",
+"path":"/$YS/TYPES/LoBlock/Common/Latch",
+"ver":"0.4.1808.6002",
+"hint":"Latch"
+},
+{
+"name":"PID",
+"src":"PID.xst",
+"path":"/$YS/TYPES/LoBlock/Common/PID",
+"ver":"0.4.1802.2002",
+"hint":"Proportional Integral Derivative controller"
+}
 ]
