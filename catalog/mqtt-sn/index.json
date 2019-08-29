@@ -7,6 +7,21 @@
 "hint":"Panstamp v1"
 },
 {
+"name":"A1SC12",
+"src":"A1SC12.xst",
+"path":"/$YS/TYPES/MQTT-SN/A1SC12",
+"ver":"3.4.1908.28385",
+"hint":"Panstamp v1"
+
+},
+{
+"name":"S4C16",
+"src":"S4C16.xst",
+"path":"/$YS/TYPES/MQTT-SN/S4C16",
+"ver":"3.4.1908.19705",
+"hint":"S4M13 with CC1101"
+},
+{
 "name":"S4EMC14",
 "src":"S4EMC14.xst",
 "path":"/$YS/TYPES/MQTT-SN/S4EMC14",
