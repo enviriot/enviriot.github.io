@@ -47,5 +47,12 @@
 "path":"/$YS/TYPES/TWI/LM75",
 "ver":"0.4.1907.16000",
 "hint":"Temperature Sensor"
+},
+{
+"name":"MAX44009",
+"src":"MAX44009.xst",
+"path":"/$YS/TYPES/TWI/MAX44009",
+"ver":"0.4.1909.5001",
+"hint":"Ambient Light Sensor"
 }
 ]
