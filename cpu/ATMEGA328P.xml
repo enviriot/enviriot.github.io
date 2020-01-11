@@ -119,6 +119,7 @@
   <pin name="Osc">
     <system name="8.0MHz"  src="#define F_CPU                       8000000UL" />
     <system name="12.5MHz" src="#define F_CPU                       12500000UL" />
+    <system name="14.7MHz" src="#define F_CPU                       14745600UL" />
     <system name="16.0MHz" src="#define F_CPU                       16000000UL" />
   </pin>
   <pin name="ASLEEP">

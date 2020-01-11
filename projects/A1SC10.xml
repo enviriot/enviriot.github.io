@@ -7,16 +7,16 @@
     <item name="PORTB.01" />
     <item name="PWM 01.0" />
   </pin>
-  <pin name="PORTB.02" cfg="Phy2">
+  <pin name="PORTB.02" cfg="Phy2" titel="D10">
     <item name="NSS 1.1" func="NCS" />
   </pin>
-  <pin name="PORTB.03" cfg="Phy2">
+  <pin name="PORTB.03" cfg="Phy2" titel="D11">
     <item name="MOSI 1.1" func="SI" />
   </pin>
-  <pin name="PORTB.04" cfg="Phy2">
+  <pin name="PORTB.04" cfg="Phy2" titel="D12">
     <item name="MISO 1.1" func="SO" />
   </pin>
-  <pin name="PORTB.05" cfg="Phy2">
+  <pin name="PORTB.05" cfg="Phy2" titel="D13">
     <item name="SCK 1.1" func="CLK" />
   </pin>
   <pin name="PORTB.06" cfg="System">
@@ -51,10 +51,10 @@
     <item name="AIN 05" />
     <item name="SCL 1.0" />
   </pin>
-  <pin name="PORTD.00" cfg="Phy1">
+  <pin name="PORTD.00" cfg="Phy1" titel="D0">
     <item name="RX 0.0" func="RX" />
   </pin>
-  <pin name="PORTD.01" cfg="Phy1">
+  <pin name="PORTD.01" cfg="Phy1" titel="D1">
     <item name="TX 0.0" func="TX" />
   </pin>
   <pin name="PORTD.02" cfg="IO" addr="10" titel="D2">

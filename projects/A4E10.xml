@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<prj cpu="ATMEGA2560" phy1="UART">
+<prj cpu="ATMEGA2560" phy1="ENC28J60">
   <pin name="PORTA.00" cfg="IO" addr="38" titel="22">
     <item name="PORTA.00" />
   </pin>
@@ -24,17 +24,17 @@
   <pin name="PORTA.07" cfg="IO" addr="45" titel="29">
     <item name="PORTA.07" />
   </pin>
-  <pin name="PORTB.00" cfg="IO" addr="69" titel="53">
-    <item name="PORTB.00" />
+  <pin name="PORTB.00" cfg="Phy1" titel="53">
+    <item name="NSS 1.1" func="NCS" />
   </pin>
-  <pin name="PORTB.01" cfg="IO" addr="68" titel="52">
-    <item name="PORTB.01" />
+  <pin name="PORTB.01" cfg="Phy1" titel="52">
+    <item name="SCK 1.1" func="CLK" />
   </pin>
-  <pin name="PORTB.02" cfg="IO" addr="67" titel="51">
-    <item name="PORTB.02" />
+  <pin name="PORTB.02" cfg="Phy1" titel="51">
+    <item name="MOSI 1.1" func="SI" />
   </pin>
-  <pin name="PORTB.03" cfg="IO" addr="66" titel="50">
-    <item name="PORTB.03" />
+  <pin name="PORTB.03" cfg="Phy1" titel="50">
+    <item name="MISO 1.1" func="SO" />
   </pin>
   <pin name="PORTB.04" cfg="IO" addr="26" titel="10">
     <item name="PORTB.04" />
@@ -97,11 +97,13 @@
   <pin name="PORTD.07" cfg="IO" addr="54" titel="38">
     <item name="PORTD.07" />
   </pin>
-  <pin name="PORTE.00" cfg="Phy1" titel="0">
-    <item name="RX 0.0" func="RX" />
+  <pin name="PORTE.00" cfg="IO" addr="16" titel="0">
+    <item name="PORTE.00" />
+    <item name="RX 0.0" />
   </pin>
-  <pin name="PORTE.01" cfg="Phy1" titel="1">
-    <item name="TX 0.0" func="TX" />
+  <pin name="PORTE.01" cfg="IO" addr="17" titel="1">
+    <item name="PORTE.01" />
+    <item name="TX 0.0" />
   </pin>
   <pin name="PORTE.02" cfg="None" />
   <pin name="PORTE.03" cfg="IO" addr="21" titel="5">

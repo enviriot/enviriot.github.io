@@ -13,7 +13,7 @@
   <!-- ain
     channel - внутренний номер аналогового входа
   -->
-  <port name="PORTA" titel="PA" offset="00" nr="0" pinset="PORTA |= (1 &lt;&lt; {0})" pinrst="PORTA amp;= ~(1 &lt;&lt; {0})" pinget="PINA &amp; (1 &lt;&lt; {0})">
+  <port name="PORTA" titel="PA" offset="00" nr="0" pinset="PORTA |= (1 &lt;&lt; {0})" pinrst="PORTA &amp;= ~(1 &lt;&lt; {0})" pinget="PINA &amp; (1 &lt;&lt; {0})">
     <pin idx="0" fpin="51">
       <dio />
     </pin>
