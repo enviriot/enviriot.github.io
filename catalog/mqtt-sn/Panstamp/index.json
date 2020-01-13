@@ -1,0 +1,23 @@
+﻿[
+{
+"name": "A1C12",
+"src": "A1C12.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1C12",
+"ver": "3.4.2001.13555",
+"hint": "panStamp AVR, phy1: RF(CC1101)"
+},
+{
+"name": "A1S12",
+"src": "A1S12.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1S12",
+"ver": "3.4.2001.13555",
+"hint": "panStamp AVR, phy1: UART"
+},
+{
+"name": "A1SC12",
+"src": "A1SC12.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1SC12",
+"ver": "3.4.2001.13555",
+"hint": "panStamp AVR, phy1: UART, phy2: RF(CC1101)"
+}
+]

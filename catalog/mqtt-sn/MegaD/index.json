@@ -1,0 +1,9 @@
+﻿[
+{
+"name": "A5E10",
+"src": "A5E10.xst",
+"path": "/$YS/TYPES/MQTT-SN/A5E10",
+"ver": "3.4.2001.13563",
+"hint": "MegaD-2561, phy1: Ethernet(ENC28J60)"
+}
+]

@@ -1,0 +1,16 @@
+﻿[
+{
+"name": "A1E12",
+"src": "A1E12.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1E12",
+"ver": "3.4.2001.13545",
+"hint": "JeeNode(v6), phy1: RF(RFM12)"
+},
+{
+"name": "A1SR10",
+"src": "A1SR10.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1SR10",
+"ver": "3.4.2001.13558",
+"hint": "JeeNode(v6), phy1: UART, phy2: RF(RFM12)"
+}
+]

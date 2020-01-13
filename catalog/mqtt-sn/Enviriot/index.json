@@ -1,0 +1,37 @@
+﻿[
+{
+"name": "A1E12",
+"src": "A1E12.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1E12",
+"ver": "3.4.2001.13555",
+"hint": "Atmel ATMega328p, phy1: Ethernet(ENC28J60)"
+},
+{
+"name": "A1R11",
+"src": "A1R11.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1R11",
+"ver": "3.4.2001.13555",
+"hint": "uNode, phy1: RF(RFM12)"
+},
+{
+"name": "A1SR11",
+"src": "A1SR11.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1SR11",
+"ver": "3.4.2001.13555",
+"hint": "uNode, phy1: UART, phy2: RF(RFM12)"
+},
+{
+"name": "S4EMC14",
+"src": "S4EMC14.xst",
+"path": "/$YS/TYPES/MQTT-SN/S4EMC14",
+"ver": "3.4.2001.13555",
+"hint": "uNode, phy1: Ethernet(ENC28J60), phy2: RS485, phy3: RF(CC1101)"
+},
+{
+"name": "S4M13",
+"src": "S4M13.xst",
+"path": "/$YS/TYPES/MQTT-SN/S4M13",
+"ver": "3.4.2001.13574",
+"hint": "uNode, phy1: RS485"
+}
+]

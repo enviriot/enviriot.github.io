@@ -1,0 +1,44 @@
+﻿[
+{
+"name": "A1C10",
+"src": "A1C10.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1C10",
+"ver": "3.4.2001.13555",
+"hint": "Arduino Uno, phy1: RF(CC1101)"
+},
+{
+"name": "A1M10",
+"src": "A1M10.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1M10",
+"ver": "3.4.2001.13547",
+"hint": "Arduino Uno, phy1: RS485"
+},
+{
+"name": "A1S10",
+"src": "A1S10.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1S10",
+"ver": "3.4.2001.13553",
+"hint": "Arduino Uno, phy1: UART"
+},
+{
+"name": "A1SC10",
+"src": "A1SC10.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1SC10",
+"ver": "3.4.2001.13557",
+"hint": "Arduino Uno, phy1: UART, phy2: RF(CC1101)"
+},
+{
+"name": "A4E11",
+"src": "A4E11.xst",
+"path": "/$YS/TYPES/MQTT-SN/A4E11",
+"ver": "3.4.2001.13562",
+"hint": "Arduino Mega, phy1: Ethernet(ENC28J60)"
+},
+{
+"name": "A4S10",
+"src": "A4S10.xst",
+"path": "/$YS/TYPES/MQTT-SN/A4S10",
+"ver": "3.4.2001.13562",
+"hint": "Arduino Mega, phy1: UART"
+}
+]

@@ -1,35 +1,27 @@
 ﻿[
 {
-"name":"A1C12",
-"src":"A1C12.xst",
-"path":"/$YS/TYPES/MQTT-SN/A1C12",
-"ver":"3.4.1907.16000",
-"hint":"Panstamp v1"
+"name": "Arduino",
+"hint": "Arduino Boards",
+"children": "Arduino"
 },
 {
-"name":"A1SC12",
-"src":"A1SC12.xst",
-"path":"/$YS/TYPES/MQTT-SN/A1SC12",
-"ver":"3.4.1908.28385"
+"name": "JeeLabs",
+"hint": "JeeLabs AVR",
+"children": "JeeLabs"
 },
 {
-"name":"S4C16",
-"src":"S4C16.xst",
-"path":"/$YS/TYPES/MQTT-SN/S4C16",
-"ver":"3.4.1908.19705"
+"name": "MegaD",
+"hint": "ab-log.ru",
+"children": "MegaD"
 },
 {
-"name":"S4EMC14",
-"src":"S4EMC14.xst",
-"path":"/$YS/TYPES/MQTT-SN/S4EMC14",
-"ver":"3.4.1907.16000",
-"hint":"Gate Ethernet -> RS485 & RF(CC11)"
+"name": "Panstamp",
+"hint": "github.com/panStamp",
+"children": "Panstamp"
 },
 {
-"name":"S4M13",
-"src":"S4M13.xst",
-"path":"/$YS/TYPES/MQTT-SN/S4M13",
-"ver":"3.4.1907.16000",
-"hint":"Node RS485"
+"name": "Enviriot",
+"hint": "github.com/enviriot",
+"children": "Enviriot"
 }
 ]
