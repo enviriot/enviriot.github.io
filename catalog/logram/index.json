@@ -1,22 +1,22 @@
 ﻿[
 {
-"name":"Ambient",
-"hint":"LoBlocks for environmental sensors",
-"children":"Ambient"
+"name": "Ambient",
+"hint": "LoBlocks for environmental sensors",
+"children": "Ambient"
 },
 {
-"name":"Clouds",
-"hint":"LoBlocks for export to Cloud services",
-"children":"Clouds"
+"name": "Clouds",
+"hint": "LoBlocks for export to Cloud services",
+"children": "Clouds"
 },
 {
-"name":"Common",
-"hint":"General purpose LoBlocks",
-"children":"Common"
+"name": "Common",
+"hint": "General purpose LoBlocks",
+"children": "Common"
 },
 {
-"name":"Timer",
-"hint":"LoBlocks for time intervals",
-"children":"Timer"
+"name": "Timer",
+"hint": "LoBlocks for time intervals",
+"children": "Timer"
 }
 ]

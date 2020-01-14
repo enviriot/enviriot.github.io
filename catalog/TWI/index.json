@@ -1,58 +1,58 @@
 ﻿[
 {
-"name":"APDS9930",
-"src":"APDS9930.xst",
-"path":"/$YS/TYPES/TWI/APDS9930",
-"ver":"0.4.1907.16000",
-"hint":"Digital Proximity and Ambient Light Sensor"
+"name": "APDS9930",
+"src": "APDS9930.xst",
+"path": "/$YS/TYPES/TWI/APDS9930",
+"ver": "0.4.1907.16000",
+"hint": "Digital Proximity and Ambient Light Sensor"
 },
 {
-"name":"BH1750",
-"src":"BH1750.xst",
-"path":"/$YS/TYPES/TWI/BH1750",
-"ver":"0.4.1907.16000",
-"hint":"Ambient Light Sensor"
+"name": "BH1750",
+"src": "BH1750.xst",
+"path": "/$YS/TYPES/TWI/BH1750",
+"ver": "0.4.1907.16000",
+"hint": "Ambient Light Sensor"
 },
 {
-"name":"BME280",
-"src":"BME280.xst",
-"path":"/$YS/TYPES/TWI/BME280",
-"ver":"0.4.1907.16000",
-"hint":"Temperature, Humidity and Pressure Sensor"
+"name": "BME280",
+"src": "BME280.xst",
+"path": "/$YS/TYPES/TWI/BME280",
+"ver": "0.4.1907.16000",
+"hint": "Temperature, Humidity and Pressure Sensor"
 },
 {
-"name":"BME680",
-"src":"BME680.xst",
-"path":"/$YS/TYPES/TWI/BME680",
-"ver":"0.4.1907.16000",
-"hint":"Temperature, Humidity, Pressure and Gas Sensor"
+"name": "BME680",
+"src": "BME680.xst",
+"path": "/$YS/TYPES/TWI/BME680",
+"ver": "0.4.1907.16000",
+"hint": "Temperature, Humidity, Pressure and Gas Sensor"
 },
 {
-"name":"CC2D",
-"src":"CC2D.xst",
-"path":"/$YS/TYPES/TWI/CC2D",
-"ver":"0.4.1907.16000",
-"hint":"Calibrated Humidity and Temperature Sensor"
+"name": "CC2D",
+"src": "CC2D.xst",
+"path": "/$YS/TYPES/TWI/CC2D",
+"ver": "0.4.1907.16000",
+"hint": "Calibrated Humidity and Temperature Sensor"
 },
 {
-"name":"HDC1080",
-"src":"HDC1080.xst",
-"path":"/$YS/TYPES/TWI/HDC1080",
-"ver":"0.4.1907.16000",
-"hint":"Low Power, High Accuracy Digital Humidity Sensor with Temperature Sensor"
+"name": "HDC1080",
+"src": "HDC1080.xst",
+"path": "/$YS/TYPES/TWI/HDC1080",
+"ver": "0.4.1907.16000",
+"hint": "Low Power, High Accuracy Digital Humidity Sensor with Temperature Sensor"
 },
 {
-"name":"LM75",
-"src":"LM75.xst",
-"path":"/$YS/TYPES/TWI/LM75",
-"ver":"0.4.1907.16000",
-"hint":"Temperature Sensor"
+"name": "LM75",
+"src": "LM75.xst",
+"path": "/$YS/TYPES/TWI/LM75",
+"ver": "0.4.1907.16000",
+"hint": "Temperature Sensor"
 },
 {
-"name":"MAX44009",
-"src":"MAX44009.xst",
-"path":"/$YS/TYPES/TWI/MAX44009",
-"ver":"0.4.1909.5001",
-"hint":"Ambient Light Sensor"
+"name": "MAX44009",
+"src": "MAX44009.xst",
+"path": "/$YS/TYPES/TWI/MAX44009",
+"ver": "0.4.1909.5001",
+"hint": "Ambient Light Sensor"
 }
 ]

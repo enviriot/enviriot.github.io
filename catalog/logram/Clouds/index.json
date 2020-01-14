@@ -1,9 +1,9 @@
 ﻿[
 {
-"name":"NarodMon",
-"src":"NarodMon.xst",
-"path":"/$YS/TYPES/LoBlock/Cloud/NarodMon",
-"ver":"0.4.1802.4003",
-"hint":"export to narodmon.ru"
+"name": "NarodMon",
+"src": "NarodMon.xst",
+"path": "/$YS/TYPES/LoBlock/Cloud/NarodMon",
+"ver": "0.4.1802.4003",
+"hint": "export to narodmon.ru"
 }
 ]

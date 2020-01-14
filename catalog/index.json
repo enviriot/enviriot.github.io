@@ -1,17 +1,17 @@
 ﻿[
 {
-"name":"Logram",
-"hint":"Visually programmable logic",
-"children":"logram"
+"name": "Logram",
+"hint": "Visually programmable logic",
+"children": "logram"
 },
 {
-"name":"MQTT-SN",
-"hint":"MQTT-SN server",
-"children":"mqtt-sn"
+"name": "MQTT-SN",
+"hint": "MQTT-SN server",
+"children": "mqtt-sn"
 },
 {
-"name":"TWI",
-"hint":"Drivers for TWI devices",
-"children":"TWI"
+"name": "TWI",
+"hint": "Drivers for TWI devices",
+"children": "TWI"
 }
 ]
