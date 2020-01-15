@@ -26,7 +26,7 @@
 
 Download | Link
 ---------|------
-Enviriot Software | [v0.4.2001.14000](https://github.com/enviriot/enviriot.github.io/archive/bin.zip)
+Enviriot Software | [v0.4.2001.15000](https://github.com/enviriot/enviriot.github.io/archive/bin.zip)
 Node configurator | [v0.4.1804.27001](https://github.com/enviriot/enviriot.github.io/archive/NodeConf.zip)
 Firmware | [v3.1.3](https://github.com/X13home/X13.devices)
 Hardware | [Link](https://github.com/X13home/X13.hardware)
