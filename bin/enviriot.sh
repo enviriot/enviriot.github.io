@@ -1,4 +1,4 @@
-#!/bin/sh
+#! /bin/sh
 # Start/stop the enviriot service.
 #
 ### BEGIN INIT INFO
@@ -18,32 +18,43 @@ MONOSERVER=$(which mono-service)
 ENVIRIOT_FOLDER=/opt/enviriot           # <------ CHANGE INSTALL PATH HERE
 ENVIRIOT_PID=/var/run/enviriot.pid
 
+ret=$(ps ax | grep "enviriot.exe" | grep -v "grep" | wc -l)
+
 case "$1" in
  start)
-  if [ -s ${ENVIRIOT_PID} ]; then
-   echo "Enviriot Service is already running!"
-  else
-   echo -n "Starting Enviriot"
+  if [ $ret -eq 0 ]; then
+   echo "Starting Enviriot"
    ${MONOSERVER} -d:${ENVIRIOT_FOLDER}/bin -l:${ENVIRIOT_PID} ${ENVIRIOT_FOLDER}/bin/enviriot.exe
+  else
+   echo "Enviriot Service is already running!"
   fi
  ;;
  stop)
-  if [ -s ${ENVIRIOT_PID} ]; then
-   echo -n "Stopping Enviriot Service"
-   kill `cat ${ENVIRIOT_PID}`
-  else
+  if [ $ret -eq 0 ]; then
    echo "Enviriot Service is not running"
+  else
+    echo "Stopping Enviriot Service"
+    kill $(pgrep -f enviriot.exe)
+    rm ${ENVIRIOT_PID}
+  fi
+ ;;
+ status)
+  if [ $ret -eq 0 ]; then
+   echo "Enviriot Service is not running"
+   exit 3
+  else
+   echo "Enviriot Service is running"
+   exit 0
   fi
  ;;
  restart)
   $0 stop
-  sleep 1
+  sleep 5
   $0 start
   stat_done
  ;;
  *)
-  echo "usage: $0 {start|stop|restart}"
+  echo "usage: $0 {start|stop|status|restart}"
 esac
 
 exit 0
-
