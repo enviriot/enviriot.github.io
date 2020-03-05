@@ -5,6 +5,11 @@
 "children": "Arduino"
 },
 {
+"name": "Enviriot",
+"hint": "github.com/enviriot",
+"children": "Enviriot"
+},
+{
 "name": "JeeLabs",
 "hint": "JeeLabs AVR",
 "children": "JeeLabs"
@@ -20,8 +25,8 @@
 "children": "Panstamp"
 },
 {
-"name": "Enviriot",
-"hint": "github.com/enviriot",
-"children": "Enviriot"
+"name": "STM",
+"hint": "STM32 Nucleo Boards",
+"children": "STM"
 }
 ]

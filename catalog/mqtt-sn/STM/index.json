@@ -1,0 +1,9 @@
+﻿[
+{
+"name": "S4S10",
+"src": "S4S10.xst",
+"path": "/$YS/TYPES/MQTT-SN/S4S10",
+"hint": "STM Nucleo F303K8, phy1: Serial",
+"ver": "3.4.2003.5583"
+}
+]
