@@ -38,19 +38,19 @@
   </pin>
   <pin name="GPIOA.08" cfg="None" />
   <pin name="GPIOA.09" cfg="Phy1">
-    <item name="TX 1.0" />
+    <item name="TX 1.0" func="TX" />
   </pin>
   <pin name="GPIOA.10" cfg="Phy1">
-    <item name="RX 1.0" />
+    <item name="RX 1.0" func="RX" />
   </pin>
   <pin name="GPIOA.11" cfg="None" />
   <pin name="GPIOA.12" cfg="Phy1">
-    <item name="DE 1.0" />
+    <item name="DE 1.0" func="DE" />
   </pin>
-  <pin name="GPIOA.13" cfg="System">
+  <pin name="GPIOA.13" cfg="System" titel="X23">
     <item name="SWDAT" />
   </pin>
-  <pin name="GPIOA.14" cfg="System">
+  <pin name="GPIOA.14" cfg="System" titel="X21">
     <item name="SWCLK" />
   </pin>
   <pin name="GPIOA.15" cfg="None" />
@@ -68,10 +68,10 @@
   <pin name="GPIOB.03" cfg="None" />
   <pin name="GPIOB.04" cfg="None" />
   <pin name="GPIOB.05" cfg="None" />
-  <pin name="GPIOB.06" cfg="None">
+  <pin name="GPIOB.06" cfg="None" titel="X15">
     <item name="SCL 1.0" />
   </pin>
-  <pin name="GPIOB.07" cfg="None">
+  <pin name="GPIOB.07" cfg="None" titel="X16">
     <item name="SDA 1.0" />
   </pin>
   <pin name="GPIOB.08" cfg="None" />
@@ -83,5 +83,8 @@
   </pin>
   <pin name="RTC" cfg="System">
     <item name="HSE" />
+  </pin>
+  <pin name="PLC" cfg="System">
+    <item name="8" />
   </pin>
 </prj>

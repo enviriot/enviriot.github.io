@@ -19,6 +19,7 @@
       <dio />
       <ain name="AIN0" channel="0" />
       <pwm name="TIM2_CH1" timer="2" channel="0" af="1"/>
+      <cnt name="TIM2_ETR" timer="2" af="1"/>
     </pin>
     <pin idx="1" fpin="07">
       <dio />
@@ -51,6 +52,7 @@
       <ain name="AIN5" channel="5" />
       <pwm timer="2"   channel="0" af="1"/>
       <spi name="SCK" channel="1" config="1" />
+      <cnt name="TIM2_ETR" timer="2" af="1"/>
     </pin>
     <pin idx="6" fpin="12">
       <dio />
@@ -90,6 +92,7 @@
       <dio />
       <pwm timer="16"  channel="0" af="1"/>
       <serial name="DE" channel="1" config="0" />
+      <cnt name="TIM1_ETR" timer="1" af="11"/>
     </pin>
     <pin idx="13" fpin="23" default="SWDAT">
       <dio />
@@ -107,6 +110,7 @@
       <twi name="SCL" channel="1" config="2" />
       <serial name="RX" channel="2" config="1"/>
       <serial name="RX" channel="2" config="10"/>
+      <cnt name="TIM2_ETR" timer="2" af="1"/>
     </pin>
   </port>
   <port name="GPIOB" titel="PB" offset="16" nr="1" pinset="GPIOB-&gt;BSRR = (1 &lt;&lt; {0})" pinrst="GPIOB-&gt;BRR = (1 &lt;&lt; {0})" pinget="GPIOB-&gt;IDR &amp; (1 &lt;&lt; {0})">
@@ -125,6 +129,7 @@
       <pwm timer="2"   channel="1" af="1"/>
       <spi name="SCK"  channel="1" config="2" />
       <serial name="TX" channel="2" config="2" />
+      <cnt name="TIM3_ETR" timer="3" af="10"/>
     </pin>
     <pin idx="4" fpin="27">
       <dio />

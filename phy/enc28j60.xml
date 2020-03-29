@@ -7,43 +7,43 @@
   <pin name="RST" signal="DIO" optional="true" />
   <pin name="IRQ" signal="DIO" optional="true" />
 
-  <append fmt="#define ENC_USE_SPI                  {0}">
+  <append fmt="#define ENC_USE_SPI                 {0}">
     <var name="spi.channel"/>
   </append>
-  <append fmt="#define ENC_NSS_PIN                  {0}">
+  <append fmt="#define ENC_NSS_PIN                 {0}">
     <var name="NCS.pinnr"/>  <!-- _nss.parent.idx + _nss.parent.port.offset -->
   </append>
-  <append fmt="#define ENC_SELECT()                 {0}">
+  <append fmt="#define ENC_SELECT()                {0}">
     <var name="NCS.pinrst" /> <!--format name="spi.nss.parent.port.pinrst"> <var name="spi.nss.parent.idx"/> </format-->
   </append>
-  <append fmt="#define ENC_RELEASE()                {0}">
+  <append fmt="#define ENC_RELEASE()               {0}">
     <var name="NCS.pinset"/> <!--format name="spi.nss.parent.port.pinset"> <var name="spi.nss.parent.idx"/> </format-->
   </append>
   <!--Reset Pin -->
-  <append fmt="#define ENC_RST_PIN                  {0}" optional="true" >
+  <append fmt="#define ENC_RST_PIN                 {0}" optional="true" >
     <var name="RST.pinnr"/>
   </append>
-  <append fmt="#define ENC_RST_SET()                {0}" optional="true" >
+  <append fmt="#define ENC_RST_SET()               {0}" optional="true" >
     <var name="RST.pinrst"/>
   </append>
-  <append fmt="#define ENC_RST_CLR()                {0}" optional="true" >
+  <append fmt="#define ENC_RST_CLR()               {0}" optional="true" >
     <var name="RST.pinset"/>
   </append>
   <!--IRQ Pin -->
-  <append fmt="#define ENC_IRQ_PIN                  {0}" optional="true" >
+  <append fmt="#define ENC_IRQ_PIN                 {0}" optional="true" >
     <var name="IRQ.pinnr"/>
   </append>
-  <append fmt="#define ENC_IRQ_STATE()              (({0}) != 0)" optional="true" >
+  <append fmt="#define ENC_IRQ_STATE()             (({0}) != 0)" optional="true" >
     <var name="IRQ.pinget"/>
   </append>
-  <append fmt="#define ENC_PHY                      {0}">
+  <append fmt="#define ENC_PHY                     {0}">
       <var name="nr"/>
   </append>
-  <append fmt="#define OD_DEF_DEV_MAC               {{0x00,0x04,0xA3,0x00,0x00,0x05}}   // MAC MSB->LSB"/>
-  <append fmt="//#define OD_DEF_IP_ADDR               inet_addr(192,168,10,202)"/>
-  <append fmt="//#define OD_DEF_IP_MASK               inet_addr(255,255,255,0)"/>
-  <append fmt="//#define OD_DEF_IP_ROUTER             inet_addr(192,168,10,1)"/>
-  <append fmt="//#define OD_DEF_IP_BROKER             inet_addr(192,168,20,8)"/>
+  <append fmt="#define OD_DEF_DEV_MAC              {{0x00,0x04,0xA3,0x00,0x00,0x05}}   // MAC MSB->LSB"/>
+  <append fmt="//#define OD_DEF_IP_ADDR              inet_addr(192,168,10,202)"/>
+  <append fmt="//#define OD_DEF_IP_MASK              inet_addr(255,255,255,0)"/>
+  <append fmt="//#define OD_DEF_IP_ROUTER            inet_addr(192,168,10,1)"/>
+  <append fmt="//#define OD_DEF_IP_BROKER            inet_addr(192,168,20,8)"/>
   <append fmt="#include &quot;PHY/ENC28J60/enc28j60_phy.h&quot;"/>
 
   <x04 name="MACAddr"  json="{&quot;default&quot;:&quot;&#0164;BA&quot;}" />
