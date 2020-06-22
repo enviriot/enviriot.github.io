@@ -38,7 +38,7 @@
 "name": "S4SM13",
 "src": "S4SM13.xst",
 "path": "/$YS/TYPES/MQTT-SN/S4SM13",
-"ver": "3.4.2001.15474",
+"ver": "3.4.2006.22398"
 "hint": "uNode, phy1: Serial, phy2: RS485"
 }
 ]
