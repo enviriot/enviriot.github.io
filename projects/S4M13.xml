@@ -4,6 +4,7 @@
     <item name="GPIOA.00" />
     <item name="AIN 00" />
     <item name="PWM 02.0" />
+    <item name="CNT 02" />
   </pin>
   <pin name="GPIOA.01" cfg="IO" addr="1">
     <item name="GPIOA.01" />
