@@ -7,6 +7,13 @@
 "hint": "Average"
 },
 {
+"name": "CSV",
+"src": "CSV.xst",
+"path": "/$YS/TYPES/LoBlock/Common/CSV",
+"ver": "0.4.2009.23001",
+"hint": "Export to CSV"
+},
+{
 "name": "Forecast",
 "src": "Forecast.xst",
 "path": "/$YS/TYPES/LoBlock/Common/Forecast",
