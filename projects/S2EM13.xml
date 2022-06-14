@@ -46,6 +46,7 @@
     <item name="PWM 01.3" />
   </pin>
   <pin name="GPIOA.12" cfg="IO" addr="10" titel="CN8">
+    <item name="DE 1.0" />
     <item name="GPIOA.12" />
   </pin>
   <pin name="GPIOA.13" cfg="System">
