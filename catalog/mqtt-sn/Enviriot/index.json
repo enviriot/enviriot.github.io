@@ -31,13 +31,12 @@
 "name": "S4M13",
 "src": "S4M13.xst",
 "path": "/$YS/TYPES/MQTT-SN/S4M13",
-"ver": "3.4.2008.24588",
-"hint": "uNode, phy1: RS485"
+"ver": "3.4.2008.24588"
 },
 {
 "name": "S4SM13",
 "src": "S4SM13.xst",
 "path": "/$YS/TYPES/MQTT-SN/S4SM13",
-"ver": "3.4.2006.22398",
-"hint": "uNode, phy1: Serial, phy2: RS485"}
+"ver": "3.4.2006.22398"
+}
 ]

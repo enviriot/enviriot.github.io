@@ -7,6 +7,13 @@
 "hint": "panStamp AVR, phy1: RF(CC1101)"
 },
 {
+"name": "A1Cn12",
+"src": "A1Cn12.xst",
+"path": "/$YS/TYPES/MQTT-SN/A1Cn12",
+"ver": "3.4.2001.13555",
+"hint": "panStamp AVR, phy1: RF(CC1101)"
+},
+{
 "name": "A1S12",
 "src": "A1S12.xst",
 "path": "/$YS/TYPES/MQTT-SN/A1S12",
