@@ -52,6 +52,7 @@ class X13_graph extends BaseComponent {
       connectSeparatedPoints: true,
       legend: 'follow',
       series: series,
+      labelsSeparateLines: false,
       labels: this.labels,
       ylabel: this.$.ylabel,
       y2label: this.$.y2label,
@@ -61,6 +62,9 @@ class X13_graph extends BaseComponent {
         mouseup: upV3,
         mousewheel: scrollV3,
         dblclick: this.dblClickV3.bind(this),
+        touchstart: Dygraph.defaultInteractionModel.touchstart,
+        touchmove: Dygraph.defaultInteractionModel.touchmove,
+        touchend: Dygraph.defaultInteractionModel.touchend,
       },
       drawCallback: this.drawCallback.bind(this),
     };
