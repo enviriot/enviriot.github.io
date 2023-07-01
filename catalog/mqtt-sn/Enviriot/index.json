@@ -21,6 +21,12 @@
 "hint": "uNode, phy1: UART, phy2: RF(RFM12)"
 },
 {
+"name": "S2EM13",
+"src": "S2EM13.xst",
+"path": "/$YS/TYPES/MQTT-SN/S2EM13",
+"ver": "3.4.2206.8742"
+},
+{
 "name": "S4EMC14",
 "src": "S4EMC14.xst",
 "path": "/$YS/TYPES/MQTT-SN/S4EMC14",

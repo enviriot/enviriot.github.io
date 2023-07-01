@@ -5,5 +5,12 @@
 "path": "/$YS/TYPES/LoBlock/Cloud/NarodMon",
 "ver": "0.4.1802.4003",
 "hint": "export to narodmon.ru"
+},
+{
+"name": "open-meteo",
+"src": "open-meteo.xst",
+"path": "/$YS/TYPES/LoBlock/Cloud/open-meteo",
+"ver": "0.4.2306.23384",
+"hint": "Wheather Forecast API on open-meteo.com"
 }
 ]
