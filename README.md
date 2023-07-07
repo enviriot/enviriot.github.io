@@ -32,7 +32,7 @@
 
 Download | Link
 ---------|------
-Enviriot Software | [0.4.2307.1100](https://github.com/enviriot/enviriot.github.io/archive/bin.zip)
+Enviriot Software | [Releases](https://github.com/enviriot/EnviriotSW/releases)
 Node configurator | [v0.4.2006.2000](https://github.com/enviriot/enviriot.github.io/archive/NodeConf.zip)
 Firmware | [v3.1.3](https://github.com/X13home/X13.devices)
 Hardware | [Link](https://github.com/X13home/X13.hardware)
