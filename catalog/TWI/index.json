@@ -1,5 +1,12 @@
 ﻿[
 {
+"name": "ADT7410",
+"src": "ADT7410.xst",
+"path": "/$YS/TYPES/TWI/ADT7410",
+"ver": "0.4.2304.19679",
+"hint": "High accuracy digital temperature sensor"
+},
+{
 "name": "APDS9930",
 "src": "APDS9930.xst",
 "path": "/$YS/TYPES/TWI/APDS9930",
