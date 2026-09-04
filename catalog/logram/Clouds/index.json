@@ -3,14 +3,14 @@
 "name": "NarodMon",
 "src": "NarodMon.xst",
 "path": "/$YS/TYPES/LoBlock/Cloud/NarodMon",
-"ver": "0.4.1802.4003",
+"ver": "0.5.2609.4004",
 "hint": "export to narodmon.ru"
 },
 {
 "name": "open-meteo",
 "src": "open-meteo.xst",
 "path": "/$YS/TYPES/LoBlock/Cloud/open-meteo",
-"ver": "0.4.2306.23384",
+"ver": "0.5.2609.4385",
 "hint": "Wheather Forecast API on open-meteo.com"
 }
 ]

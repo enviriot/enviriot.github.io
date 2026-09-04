@@ -3,42 +3,42 @@
 "name": "Average",
 "src": "Average.xst",
 "path": "/$YS/TYPES/LoBlock/Common/Average",
-"ver": "0.4.2310.25006",
+"ver": "0.5.2609.4007",
 "hint": "Average"
 },
 {
 "name": "CSV",
 "src": "CSV.xst",
 "path": "/$YS/TYPES/LoBlock/Common/CSV",
-"ver": "0.4.2009.23001",
+"ver": "0.5.2609.4002",
 "hint": "Export to CSV"
 },
 {
 "name": "Forecast",
 "src": "Forecast.xst",
 "path": "/$YS/TYPES/LoBlock/Common/Forecast",
-"ver": "0.4.1805.22689",
+"ver": "0.5.2609.4690",
 "hint": "Forecast"
 },
 {
 "name": "Last",
 "src": "Last.xst",
 "path": "/$YS/TYPES/LoBlock/Common/Last",
-"ver": "0.4.1712.23001",
+"ver": "0.5.2609.4002",
 "hint": "Last value"
 },
 {
 "name": "Latch",
 "src": "Latch.xst",
 "path": "/$YS/TYPES/LoBlock/Common/Latch",
-"ver": "0.4.1808.6002",
+"ver": "0.5.2609.4003",
 "hint": "Latch"
 },
 {
 "name": "PID",
 "src": "PID.xst",
 "path": "/$YS/TYPES/LoBlock/Common/PID",
-"ver": "0.4.1802.2002",
+"ver": "0.5.2609.4003",
 "hint": "Proportional Integral Derivative controller"
 }
 ]
