@@ -15,6 +15,11 @@
 "children": "Common"
 },
 {
+"name": "IOT",
+"hint": "",
+"children": "IOT"
+},
+{
 "name": "Timer",
 "hint": "LoBlocks for time intervals",
 "children": "Timer"

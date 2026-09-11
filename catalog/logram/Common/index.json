@@ -14,6 +14,13 @@
 "hint": "Export to CSV"
 },
 {
+"name": "Decoder",
+"src": "Decoder.xst",
+"path": "/$YS/TYPES/LoBlock/Common/Decoder",
+"ver": "0.5.2609.11001",
+"hint": "1 of N decoder"
+},
+{
 "name": "Forecast",
 "src": "Forecast.xst",
 "path": "/$YS/TYPES/LoBlock/Common/Forecast",
