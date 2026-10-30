@@ -5,6 +5,11 @@
 "children": "logram"
 },
 {
+"name": "LPLC",
+"hint": "Embedded visually programmable logic",
+"children": "LPLC"
+},
+{
 "name": "MQTT-SN",
 "hint": "MQTT-SN server",
 "children": "mqtt-sn"

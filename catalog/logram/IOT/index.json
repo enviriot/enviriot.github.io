@@ -1,0 +1,9 @@
+﻿[
+{
+"name": "refos_em06t",
+"src": "refos_em06p.xst",
+"path": "/$YS/TYPES/LoBlock/IOT/refos_em06t",
+"ver": "0.4.2606.27384",
+"hint": "Refoss Smart Energy Monitor"
+}
+]

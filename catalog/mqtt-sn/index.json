@@ -10,6 +10,11 @@
 "children": "Enviriot"
 },
 {
+"name": "Espressif Systems",
+"hint": "Espressif Systems",
+"children": "Espressif Systems"
+},
+{
 "name": "JeeLabs",
 "hint": "JeeLabs AVR",
 "children": "JeeLabs"

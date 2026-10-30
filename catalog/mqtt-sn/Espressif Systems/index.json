@@ -1,0 +1,23 @@
+﻿[
+{
+"name": "E1S10",
+"src": "E1S10.xst",
+"path": "/$YS/TYPES/MQTT-SN/E1S10",
+"ver": "0.5.2610.30003",
+"hint": "MCU: ESP32 WROOM 32; phy1: UART (GPIO3 RX, GPIO1 TX - USB)"
+},
+{
+"name": "E1W10",
+"src": "E1W10.xst",
+"path": "/$YS/TYPES/MQTT-SN/E1W10",
+"ver": "0.5.2610.30003",
+"hint": "MCU: ESP32 WROOM 32; phy1: WiFi"
+},
+{
+"name": "E1WM10",
+"src": "E1WM10.xst",
+"path": "/$YS/TYPES/MQTT-SN/E1WM10",
+"ver": "0.5.2610.30003",
+"hint": "MCU: ESP32 WROOM 32; phy1: WiFi; phy2: RS-485"
+}
+]
