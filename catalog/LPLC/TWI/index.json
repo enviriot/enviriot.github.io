@@ -3,14 +3,14 @@
 "name": "BME280",
 "src": "BME280.xst",
 "path": "/$YS/TYPES/LPLC/TWI/BME280",
-"ver": "0.5.2610.30002",
+"ver": "0.5.2610.30003",
 "hint": "Temperature, Humidity and Pressure Sensor"
 },
 {
 "name": "HDC1080",
 "src": "HDC1080.xst",
 "path": "/$YS/TYPES/LPLC/TWI/HDC1080",
-"ver": "0.5.2610.30001",
+"ver": "0.5.2610.30003",
 "hint": "Low Power, High Accuracy Digital Humidity Sensor with Temperature Sensor"
 }
 ]

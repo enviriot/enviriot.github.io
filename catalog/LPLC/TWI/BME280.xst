@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <xst path='/$YS/TYPES/LPLC/TWI'>
-  <i n='BME280' m='{"attr":69}' ver='0.5.2610.30002' s='{
+  <i n='BME280' m='{"attr":69}' ver='0.5.2610.30003' s='{
 	"hint": "Temperature, Humidity and Pressure Sensor",
 	"icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZmlsbD0iI2RjZmZmZiIgZD0iTTAgMGgxNnYxNkgweiIvPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI0MzQ0NyIgZD0iTTMuNSAxLjVoOXY1aC05ek0xIDEwLjVoOG0zIDBoM00xIDEzLjVoMTRNNS41IDYuNXY0bTUtNHY3Ii8+PGcgZmlsbD0iIzI0MzQ0NyI+PGNpcmNsZSBjeD0iNS41IiBjeT0iMTAuNSIgcj0iMSIvPjxjaXJjbGUgY3g9IjEwLjUiIGN5PSIxMy41IiByPSIxIi8+PC9nPjwvc3ZnPg==",
 	"willful": true,
@@ -17,7 +17,7 @@
 	  "args": { "mi": {
 		"TwiNr": { "cdr": 1, "label": "TWI", "editor": "Integer", "default": 0, "choices": { "provider": "bus", "kind": "twi", "scope": "configured" } },
 		"Address": { "cdr": 2, "label": "Address", "editor": "Integer", "format": "0x{0:X2}", "default": 118, "choices": { "provider": "list", "values": [118, 119] } },
-		"Period": { "cdr": 3, "label": "Period", "editor": "Integer", "format": "{0} ms", "default": 30000, "choices": { "provider": "list", "values": [30000, 300000] } }
+		"Period": { "cdr": 3, "label": "Period", "editor": "Integer", "format": "{0} ms", "default": 30000, "choices": { "provider": "list", "values": [1000, 30000, 300000] } }
 	  } },
 	  "in": { "mi": {} },
 	  "out": { "mi": {
