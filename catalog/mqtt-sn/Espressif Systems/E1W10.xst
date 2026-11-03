@@ -77,27 +77,24 @@
         },
         "UART TX": {
           "modes": {
-            "UART1_TX": { "v": 20, "hint": "UART1 TX",
-                          "opt": { "hint": "baud rate", "min": 1, "max": 5000000, "default": 9600 } },
-            "UART1_DE": { "v": 22, "hint": "UART1 RS-485 driver enable" },
-            "UART2_TX": { "v": 23, "hint": "UART2 TX",
-                          "opt": { "hint": "baud rate", "min": 1, "max": 5000000, "default": 9600 } },
-            "UART2_DE": { "v": 25, "hint": "UART2 RS-485 driver enable" }
+            "UART0_TX": { "v": 20, "hint": "UART0 TX", "opt": { "hint": "baud rate", "min": 1, "max": 5000000, "default": 9600 } },
+            "UART0_DE": { "v": 22, "hint": "UART0 RS-485 driver enable" },
+            "UART1_TX": { "v": 23, "hint": "UART1 TX", "opt": { "hint": "baud rate", "min": 1, "max": 5000000, "default": 9600 } },
+            "UART1_DE": { "v": 25, "hint": "UART1 RS-485 driver enable" },
+            "UART2_TX": { "v": 26, "hint": "UART2 TX", "opt": { "hint": "baud rate", "min": 1, "max": 5000000, "default": 9600 } },
+            "UART2_DE": { "v": 28, "hint": "UART2 RS-485 driver enable" }
           },
           "pins": [0, 1, 2, 3, 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 26, 27, 32, 33]
         },
         "UART RX": {
           "modes": {
-            "UART1_RX": { "v": 21, "hint": "UART1 RX",
-                          "opt": { "hint": "frame format", "default": 0,
-                                   "values": { "8N1": 0, "8E1": 1, "8O1": 2, "8N2": 4, "8E2": 5, "8O2": 6 } } },
-            "UART2_RX": { "v": 24, "hint": "UART2 RX",
-                          "opt": { "hint": "frame format", "default": 0,
-                                   "values": { "8N1": 0, "8E1": 1, "8O1": 2, "8N2": 4, "8E2": 5, "8O2": 6 } } }
+            "UART0_RX": { "v": 21, "hint": "UART0 RX", "opt": { "hint": "frame format", "default": 0, "values": { "8N1": 0, "8E1": 1, "8O1": 2, "8N2": 4, "8E2": 5, "8O2": 6 } } },
+            "UART1_RX": { "v": 24, "hint": "UART1 RX", "opt": { "hint": "frame format", "default": 0, "values": { "8N1": 0, "8E1": 1, "8O1": 2, "8N2": 4, "8E2": 5, "8O2": 6 } } },
+            "UART2_RX": { "v": 27, "hint": "UART2 RX", "opt": { "hint": "frame format", "default": 0, "values": { "8N1": 0, "8E1": 1, "8O1": 2, "8N2": 4, "8E2": 5, "8O2": 6 } } }
           },
           "pins": [0, 1, 2, 3, 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 26, 27, 32, 33, 34, 35, 36, 37, 38, 39]
         }
       }
     }
-  }' m='{"attr":4}' ver='0.5.2610.30003' />
+  }' m='{"attr":4}' ver='0.5.2611.03001' />
 </xst>
