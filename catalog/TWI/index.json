@@ -1,5 +1,11 @@
 ﻿[
 {
+"name": "ADT7410",
+"src": "ADT7410.xst",
+"path": "/$YS/TYPES/TWI/ADT7410",
+"hint": "High accuracy digital temperature sensor"
+},
+{
 "name": "APDS9930",
 "src": "APDS9930.xst",
 "path": "/$YS/TYPES/TWI/APDS9930",
@@ -40,6 +46,11 @@
 "path": "/$YS/TYPES/TWI/HDC1080",
 "ver": "0.4.1907.16000",
 "hint": "Low Power, High Accuracy Digital Humidity Sensor with Temperature Sensor"
+},
+{
+"name": "INA226",
+"src": "INA226.xst",
+"path": "/$YS/TYPES/TWI/INA226"
 },
 {
 "name": "LM75",
